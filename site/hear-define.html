@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>DEFINE</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body class="container toolkit-hear">
+
+      <header class="row top-header clearfix">
+        <a href="./" class="col-sm-2 hidden-xs">
+          <img class="logo" alt="Brand" src="iconnotext.png" width="128" height="128">
+        </a>
+        <div id="header-tagline-nav" class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2">
+          <h1 class="hidden-xs tagline">A Toolkit for Mobile App Development for Ending Violence Against Women</h1>
+          <div class="navbar navbar-default">
+            <div class="navbar-header visible-xs-block">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toolkit-header-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="./" class="navbar-brand">
+                <img alt="Brand" src="iconnotext.png" width="32" height="32">
+              </a>
+            </div>
+
+            <nav id="toolkit-header-nav" class="toolkit-nav collapse navbar-collapse">
+              <!--
+                the following <nav> tag captures a navigation group within the hamburger
+                menu. to make the current page's topic expanded by default, remove
+                the "collapsed" class from the <button> and set its "aria-expanded"
+                attribute to "true", and remove the "collapse" and "navbar-collapse"
+                classes from the <ul>
+              -->
+              <nav class="toolkit-hear toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-hear" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="hear.html">
+                    Hear
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-hear" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "CREATE" -->
+              <nav class="toolkit-create toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-create" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Create
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-create" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "DELIVER" -->
+              <nav class="toolkit-deliver toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-deliver" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Deliver
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-deliver" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- general navbar links, not within a topic -->
+              <nav class="toolkit-general-links">
+                <ul class="nav navbar-nav">
+                  <li><a href="mobileforevaw.html">Mobile for EVAW</a></li>
+                  <li><a href="vxwaward.html">VXW Award</a></li>
+                  <li><a href="evawapps.html">EVAW Apps</a></li>
+                  <li><a href="hcd.html">HCD</a></li>
+                </ul>
+              </nav>
+
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- BEGINNING OF MAIN BODY -->
+
+      <section class="row">
+        <nav id="sidenav" class="col-sm-3 col-md-2 hidden-xs toolkit-nav toolkit-topic-nav">
+
+          <!-- main sidenav section for HEAR -->
+
+          <nav class="toolkit-hear toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle" data-toggle="collapse" data-target="#sidebar-subnav-hear" aria-expanded="true">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="hear.html">
+                Hear
+              </a>
+
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+
+            <ul id="sidebar-subnav-hear" class="toolkit-subnav nav">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+            </ul>
+          </nav>
+
+          <!-- /* main sidenav section for CREATE -->
+          <nav class="toolkit-create toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#sidebar-subnav-create" aria-expanded="false">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="create.html">
+                Create
+              </a>
+              
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-create" class="toolkit-subnav nav collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+            </ul>
+          </nav>
+          <!-- /* main sidenav section for DELIVER
+ -->
+
+          <nav class="toolkit-deliver toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#sidebar-subnav-deliver" aria-expanded="false">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="deliver.html">
+                Deliver
+              </a>
+
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-deliver" class="toolkit-subnav nav collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+            </ul>
+          </nav>
+
+        </nav>
+
+        <!-- MAIN SECTION STARTS -->
+
+        <main class="col-sm-7 col-sm-offset-1 col-md-8" id="main-content">
+          <section class="intro">
+            <h1> Define the Challenge  </h1>
+            <p> The first step in designing any solution is developing a clear understanding of the problem you are trying to address.
+ 
+            In many cases, the challenge may already be clear before you start the design process. However, if it is too broad or complex, it may be difficult to design one solution that addresses it effectively. If this is the case, you may benefit from narrowing the problem down to something more specific before you move on.   </p>
+          </section>
+
+
+         <aside class="toolkit-consider">
+          <h2> Case Study </h2>
+          <section>
+          <img src="dany.png" style="width: auto; height: 175px" class="pull-left">
+          <p> When VAW activists <a href="http://www.vxwaward.org/about-us.html">Rachana, Dany and Sreytouch</a> began the design process, they knew they wanted to address the challenge of violence against women in Cambodia. However, after reflecting on their communities and organizations, each of them narrowed <a href="glossary.html#EVAW" title="Violence Against Women">VAW</a> to a specific design challenge. Rachana chose to address the challenge of how to promote urban safety and security for women living and commuting in Phnom Penh. Dany focused on ways to raise awareness of domestic violence for men and women in provincial communities. Sreytouch wanted to make the workplace safer for women in the food and service sectors. </p>
+        </section>
+        </aside>
+
+          <section class="clearfix">
+           <p> You may need to engage others in your community or organization to help you prioritize the specific challenge you will focus on. Try asking people affected by the broader problem to help identify what is most important to them. For challenges that are especially complex or unfamiliar to you, try organizing a “Problem Identification Workshop” to bring colleagues or community members together to discuss the problem at hand, and agree on the best place to focus your efforts.
+ 
+            Use walking through the following questions one-by-one to help you narrow down your challenge:
+            <img src="problem.png" style="width: auto; height: 175px" class="pull-right">
+            <ul>
+            <li>What is the bigger picture problem you want to address? </li>
+            <li>Can that problem be broken down into smaller challenges? </li>
+            <li>Can those challenges be solved or aided with mobile solutions? </li>
+            <li> Are there specific constraints that make certain challenges more addressable than others? (For example: a limited timeframe, a specific mandate, access to certain groups, or a pre-defined geographical focus) </li>
+            <li> What remaining problem is the most important or highest priority to those affected by it? </li>
+          </ul>
+   
+            Try to frame your challenge in terms of the people who face it. This will help you to maintain a human-centered focus that will ultimately make your solution more effective and desirable to those who need it.
+
+             </p>
+
+         </section>
+
+       </main>
+
+     </section>
+ 
+
+
+<!-- Footer Forward/Back Section -->
+<footer class="row">
+
+  <!-- Footer - forward/backward links --> 
+  <nav class="col-sm-12 prev-next">
+    <ol class="nav row">
+      <li class="prev toolkit-hear col-sm-6">
+        <a href="hear.html" rel="prev">
+          Hear
+        </a>
+      </li>
+      <li class="next toolkit-hear col-sm-6">
+        <a href="hear-explore.html" rel="next">
+          Explore
+        </a>
+      </li>
+    </ol>
+  </nav>
+
+
+<!-- 
+- Footer Section Bottom Nav-->
+
+      <footer class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-default">
+              
+              <ul class="nav navbar-nav pull-left">
+                <li><a href="http://vxwaward.org"><img alt="vxwaward" src="vxwlogo.png" width="auto" height="32"></a></li>
+                <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"><img alt="dfid" src="UK.png" width="auto" height="32"></a></li>
+                <li><a href="http://asiafoundation.org/country/overview/cambodia"><img alt="taf" src="taflogo.png" width="auto" height="32"></a></li>
+              </ul>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="about.html">About</a>
+                <li><a href="http://www.vxwaward.org/contact-us.html">Contact</a>
+                <li><a href="glossary.html">Glossary</a>
+                <li><a href="sitemap.html">Site Map</a>
+              </ul>
+            </nav>  
+        </div>
+      </footer>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+      <!-- "Survey" section -->
+      <style> #survey { display: none; height: auto;} </style> <!-- hide at first -->
+      <div id="survey" class="dialog">
+        <a class="survey-link" href="http://goo.gl/forms/mNzftuEJmO" target="_blank">Let us know what you think!</a>
+        <button class="dismiss glyphicon glyphicon-remove" aria-label="Dismiss"></button>
+      </div>
+      <script>
+        (function($) {
+          "use strict";
+          console.log("script running");
+          $(document).ready(function() {
+            $(".dialog .dismiss").on("click", function() {
+              $(this).closest(".dialog").remove();
+            });
+            console.log("setting timer for slide-in");
+            window.setTimeout(function() {
+                console.log("sliding survey link into view");
+                $("#survey").slideDown(400);
+              },
+              3000); // milliseconds until it slides into view
+          });
+        })(jQuery);
+      </script>
+
+
+  <script src="js/jquery.sticky-kit.min.js"></script>
+  <script>
+  (function($) {
+    "use strict";
+    $(document).ready(function() {
+      $("#sidenav").stick_in_parent({offset_top: 32});
+    });
+  })(jQuery);
+  </script>
+</body>
+</html>

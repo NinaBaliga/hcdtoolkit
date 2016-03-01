@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Refined HCD Toolkit</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body class="container toolkit-create">
+
+      <header class="row top-header clearfix">
+        <a href="./" class="col-sm-2 hidden-xs">
+          <img class="logo" alt="Brand" src="iconnotext.png" width="128" height="128">
+        </a>
+        <div id="header-tagline-nav" class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2">
+          <h1 class="hidden-xs tagline">A Toolkit for Mobile App Development for Ending Violence Against Women</h1>
+          <div class="navbar navbar-default">
+            <div class="navbar-header visible-xs-block">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toolkit-header-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="./" class="navbar-brand">
+                <img alt="Brand" src="iconnotext.png" width="32" height="32">
+              </a>
+            </div>
+
+            <nav id="toolkit-header-nav" class="toolkit-nav collapse navbar-collapse">
+              <!--
+                the following <nav> tag captures a navigation group within the hamburger
+                menu. to make the current page's topic expanded by default, remove
+                the "collapsed" class from the <button> and set its "aria-expanded"
+                attribute to "true", and remove the "collapse" and "navbar-collapse"
+                classes from the <ul>
+              -->
+              <nav class="toolkit-hear toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-hear" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="hear.html">
+                    Hear
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-hear" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "CREATE" -->
+              <nav class="toolkit-create toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-create" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Create
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-create" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "DELIVER" -->
+              <nav class="toolkit-deliver toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-deliver" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Deliver
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-deliver" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- general navbar links, not within a topic -->
+              <nav class="toolkit-general-links">
+                <ul class="nav navbar-nav">
+                  <li><a href="mobileforevaw.html">Mobile for EVAW</a></li>
+                  <li><a href="vxwaward.html">VXW Award</a></li>
+                  <li><a href="evawapps.html">EVAW Apps</a></li>
+                  <li><a href="hcd.html">HCD</a></li>
+                </ul>
+              </nav>
+
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="body-image-container toolkit-nav ">
+            <object class="body-image" data="hcd.svg" type="image/svg+xml">
+              <nav>
+                <ul class="nav">
+                  <li class="toolkit-hear">
+                    <a class="toolkit-navgroup-label" href="hear.html">Hear</a>
+                  </li>
+                  <li class="toolkit-create">
+                    <a class="toolkit-navgroup-label" href="create.html">Create</a>
+                  </li>
+                  <li class="toolkit-deliver">
+                    <a class="toolkit-navgroup-label" href="deliver.html">Deliver</a>
+                  </li>
+                </ul>
+              </nav>
+            </object>
+          </div>
+          <h2 style="text-align:center">Building Mobile Apps to End Violence Against Women</h2>
+          <h1 style="text-align:center"> A Refined Human Centered Design Toolkit</h1>
+
+          <hr class= "row" style=" border: 0; height:2px; background:#451F61; ">
+          <p><b> Overview </b>
+            This toolkit outlines a “refined” <a href="glossary.html#HumanCenteredDesign" title="Human Centered Design">Human Centered Design</a> (HCD) process, based on learning surfaced from the <a href="http://vxwaward.org">VXW Award Project</a>. It suggests a series of basic steps for designing mobile applications to address a specific social cause or need, and features tips and considerations for applying these tools for apps to <a href="glossary.html#EVAW" title="End Violence Against Women">End Violence Against Women (EVAW),</a> specifically.</p>
+            
+
+            <p>The toolkit layout follows the HCD model promoted by <a href="http://ideo.org">IDEO.org</a> and used widely across the social sector, which guides designers through the process of HEAR, CREATE and DELIVER. It also encourages an extra set of tips and examples to CONSIDER when tailoring the process to the unique sensitivities of EVAW.  </p>   
+
+            <h2 style="text-align:center"> Get Started by Clicking on the Hear Section of the Circle above!</h2>     
+
+
+            <hr class= "row" style=" border: 0; height:2px; background:#451F61; ">
+
+            <a href="hcdtoolkitpdf.pdf" class="toolkit-callout-btn"> Download Abridged HCD Toolkit </a>
+
+
+            <hr class= "row" style=" border: 0; height:2px; background:#451F61; ">
+
+              <h2 style="text-align: center"> Before you Begin</h2>
+            <aside class="consider">
+              <h2 style="text-align: center">Considerations for EVAW Apps</h2>
+              <section class="clearfix">
+                <p>Before you start your journey to build a mobile app for EVAW, you should consider and ask yourself the following things.
+                 <ul>
+                  <li><b>Time commitment</b> - Building a mobile app can be a serious commitment of both time and work.  You’ll have to dedicate the time to educate yourself about mobile apps, as well as put the effort to hear the voices of those who you are building the app for, and the creative effort associated with it.  A successful app requires attention to detail and time to iterate to constantly improve your app.</li>
+                  <li><b>Experience</b> - While it is possible to build an app with this toolkit with minimal experience in gender and violence issues, if you want to build an app that is truly useful to prevent violence against women, then you will need to have some tangible experience in the field.  You should also have a network of individuals you can tap into for their expertise and experience when you’re listening to others.</li>
+                  <li><b> Resources</b> - You will need to have a designer and developer on hand to help you through the entire process.  While there are many tools to help a novice build out mobile apps, the expertise and experience of professionals or people who are committed to their fields can make the process go much more smoothly. </li>
+                  <li> <b>Sustainability</b> - Once you have built the app, there may be other costs associated with maintaining complex backend systems and websites. Do your research into potential providers of these services and costs associated with it.  Additionally, if new content needs to be introduced regularly, make sure you have a system in place to provide that. </li>
+                  <li> <b>Do No Harm</b> - Violence against women is a sensitive topic where privacy issues and other sensitivities are very important to consider and address. While apps can be a powerful tool, without special heed to the privacy, accuracy, discretion of the apps and information, they also bear the risk of doing more harm than good Review the “Do No Harm” principles outlined below and reinforced throughout the CONSIDER sections of the toolkit. </li> 
+                </ul>
+              </p>
+            </section>
+          </aside>
+        </div>
+      </main>
+
+
+
+<!-- 
+  - Footer Section -->
+
+  <footer class="row">
+    <div class="col-sm-12">
+      <nav class="navbar navbar-default">
+
+        <ul class="nav navbar-nav pull-left">
+          <li><a href="http://vxwaward.org"><img alt="vxwaward" src="vxwlogo.png" width="auto" height="32"></a></li>
+          <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"><img alt="dfid" src="UK.png" width="auto" height="32"></a></li>
+          <li><a href="http://asiafoundation.org/country/overview/cambodia"><img alt="taf" src="taflogo.png" width="auto" height="32"></a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="about.html">About</a>
+            <li><a href="http://www.vxwaward.org/contact-us.html">Contact</a>
+              <li><a href="glossary.html">Glossary</a>
+                <li><a href="sitemap.html">Site Map</a>
+                </ul>
+              </nav>  
+            </div>
+          </footer>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+          <!-- "Survey" section -->
+          <style> #survey { display: none; height: auto;} </style> <!-- hide at first -->
+          <div id="survey" class="dialog">
+            <a class="survey-link" href="http://goo.gl/forms/mNzftuEJmO" target="_blank">Let us know what you think!</a>
+            <button class="dismiss glyphicon glyphicon-remove" aria-label="Dismiss"></button>
+          </div>
+          <script>
+            (function($) {
+              "use strict";
+              console.log("script running");
+              $(document).ready(function() {
+                $(".dialog .dismiss").on("click", function() {
+                  $(this).closest(".dialog").remove();
+                });
+                console.log("setting timer for slide-in");
+                window.setTimeout(function() {
+                  console.log("sliding survey link into view");
+                  $("#survey").slideDown(400);
+                },
+              3000); // milliseconds until it slides into view
+              });
+            })(jQuery);
+          </script>
+          <!-- end of survey logic -->
+        </body>
+        </html>

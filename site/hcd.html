@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>HCD</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body class="container toolkit-create">
+
+      <header class="row top-header clearfix">
+        <a href="./" class="col-sm-2 hidden-xs">
+          <img class="logo" alt="Brand" src="iconnotext.png" width="128" height="128">
+        </a>
+        <div id="header-tagline-nav" class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2">
+          <h1 class="hidden-xs tagline">A Toolkit for Mobile App Development for Ending Violence Against Women</h1>
+          <div class="navbar navbar-default">
+            <div class="navbar-header visible-xs-block">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toolkit-header-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="./" class="navbar-brand">
+                <img alt="Brand" src="iconnotext.png" width="32" height="32">
+              </a>
+            </div>
+
+            <nav id="toolkit-header-nav" class="toolkit-nav collapse navbar-collapse">
+              <!--
+                the following <nav> tag captures a navigation group within the hamburger
+                menu. to make the current page's topic expanded by default, remove
+                the "collapsed" class from the <button> and set its "aria-expanded"
+                attribute to "true", and remove the "collapse" and "navbar-collapse"
+                classes from the <ul>
+              -->
+              <nav class="toolkit-hear toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-hear" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="hear.html">
+                    Hear
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-hear" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "CREATE" -->
+              <nav class="toolkit-create toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-create" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Create
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-create" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "DELIVER" -->
+              <nav class="toolkit-deliver toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-deliver" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Deliver
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                  <ul id="header-subnav-deliver" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- general navbar links, not within a topic -->
+              <nav class="toolkit-general-links">
+                <ul class="nav navbar-nav">
+                  <li><a href="mobileforevaw.html">Mobile for EVAW</a></li>
+                  <li><a href="vxwaward.html">VXW Award</a></li>
+                  <li><a href="evawapps.html">EVAW Apps</a></li>
+                  <li><a href="hcd.html">HCD</a></li>
+                </ul>
+              </nav>
+
+            </nav>
+          </div>
+        </div>
+      </header>
+
+        </nav>
+
+        <!-- MAIN SECTION STARTS -->
+
+        <main class="col-sm-7 col-sm-offset-1 col-md-8" id="main-content">
+          <section class="intro">
+            <h1> HCD (Human-Centered Design) </h1>
+
+            <p> Human-Centered Design is a framework for designing solutions that are responsive to the unique needs and aspirations of the people they are meant to serve. While HCD methodology can be applied in many different formats and frameworks, this toolkit is based on the framework created by IDEO.org and used widely across the international development sector.</p>
+          </section>
+
+
+
+            <h2>Human-Centered Design Methodology</h2>
+            <img src="ideo.png" style="width: auto; height: 250px; padding-right: 10px" class="pull-left">
+
+            <p><a href="http://designkit.org">IDEO’s HCD Field Guide</a> serves to help organizations “hear the needs of constituents in new ways, create innovative solutions to meet these needs, and deliver solutions with financial sustainability in mind.” With this in mind, the VXW Award leveraged HCD to help activists:</p>
+            <ul>
+            <li>Understand the unique needs and sensitivities of the “violence against women” context</li>
+            <li>Ensure that solutions are desirable and appropriate for the women who need them</li>
+            <li>Increase the likelihood that the resulting mobile applications are useful and sustainable</li>
+            </ul>
+            <p>Based on the experience of using HCD in this context, The Asia Foundation decided to publish a “refined” HCD Toolkit to help other individuals and organizations who wish to design mobile applications apply the methodology for EVAW or another similar context.</p>
+
+
+
+            <h2>Toolkit Refinements</h2>
+            <p> This toolkit layout follows the basic structure of the HCD model promoted by IDEO.org, which guides solutions designers through the process of HEAR, CREATE and DELIVER. The “refined” process outlined here recommends a series of simplified steps, tools and activities for designing mobile apps during each of these phases. The steps are outlined in a way that requires minimal technical knowledge, and can be applied for the design of any mobile app that seeks to serve a human-centered problem.</p>
+ 
+            <p>The toolkit also encourages an extra set of tips and examples to consider when tailoring the process to the unique sensitivities of EVAW. These considerations are presented as case studies, examples, stories and tips throughout the toolkit.</p>
+          
+
+            <p>Some specific “refinements” are outlined below:
+            <ul>
+            <li>CONTINUOUS CYCLE: Mobile app design and development are both extremely "iterative" in nature – meaning that you will want to test, experience, and refine your assumptions, solutions and apps as many times as necessary in order to learn, evaluate and improve your app for your users. For this reason, the RHCD Toolkit outlines the HEAR, CREATE and DELIVER phases as a continuous cycle that repeats even after the first version of the app is developed.</li>
+            <li>CONSIDER: The RHCD Toolkit begins with a newly added phase called “CONSIDER” – which outlines key considerations to help design solutions specific to the EVAW context. These considerations are reinforced throughout the toolkit, and can help guide you with examples and important tips as you go.</li>
+            <li>ACTIVITIES: The IDEO.org framework is design to be flexible, and easily adapted to your specific goals and context. With this in mind, we have shortened certain steps, added new activities where applicable, and adjusted the titles and language to fit the terminology most often used for mobile technology. </li>
+            <li>SUPPORTING TOOLS: We complement the activities we recommend with a set of tools at the end of each section. These tools include resources and methods pulled from leading HCD, UX and other design methodologies, to provide a set that is specifically suited for this context.</li>
+            </ul>
+            <p>If you wish to learn more about our experience and learning throughout the HCD process, we welcome you to review our <Link to: Learning Product>, which documents key lessons learned and recommendations.</p>
+
+
+
+            <h2>Other HCD Resources</h2>
+            <p> You may also find it useful to reference other design toolkits, HCD resources and online courses for more ideas and insights. Here are several examples:
+
+            <p><b>Toolkits</b></p>
+                <ul>
+                <li><a href="http://www.designkit.org/">HCD Design Kit</a> by IDEO.org</li>
+                <li><a href="http://www.gsma.com/mobilefordevelopment/magri-design-toolkit">mAgri Design Toolkit</a> by GSMA and Frog</li>
+                <li><a href="http://www.cgap.org/publications/what-human-centered-design-means-financial-inclusion">Insights into Action Report</a> by CGAP</li>
+                <li><a href="http://frogdesign.com/work/%20frog-collective-action-toolkit.html">Collective Action Toolkit </a>by Frog</li>
+                <li><a href="http://diytoolkit.org/">DIY Toolkit</a> by Nesta</li>
+              </ul>
+            <p><b>Courses</b></p>
+                <ul>
+                <li><a href="http://plusacumen.org/courses/hcd-for-social-innovation/">Design Kit: The Course for Human Centered Design </a>by +Acumen and IDEO.org</li>
+                <li><a href="http://dschool.stanford.edu/dgift/">Crash Course on Design Thinking </a>by the d.School at Stanford</li>
+              </ul>
+
+
+      </section>
+
+    </main>
+  </section>
+
+
+
+
+<!-- 
+- Footer Section -->
+
+      <footer class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-default">
+              
+              <ul class="nav navbar-nav pull-left">
+                <li><a href="http://vxwaward.org"><img alt="vxwaward" src="vxwlogo.png" width="auto" height="32"></a></li>
+                <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"><img alt="dfid" src="UK.png" width="auto" height="32"></a></li>
+                <li><a href="http://asiafoundation.org/country/overview/cambodia"><img alt="taf" src="taflogo.png" width="auto" height="32"></a></li>
+              </ul>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="about.html">About</a>
+                <li><a href="http://www.vxwaward.org/contact-us.html">Contact</a>
+                <li><a href="glossary.html">Glossary</a>
+                <li><a href="sitemap.html">Site Map</a>
+              </ul>
+            </nav>  
+        </div>
+      </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+      <!-- "Survey" section -->
+      <style> #survey { display: none; height: auto;} </style> <!-- hide at first -->
+      <div id="survey" class="dialog">
+        <a class="survey-link" href="http://goo.gl/forms/mNzftuEJmO" target="_blank">Let us know what you think!</a>
+        <button class="dismiss glyphicon glyphicon-remove" aria-label="Dismiss"></button>
+      </div>
+      <script>
+        (function($) {
+          "use strict";
+          console.log("script running");
+          $(document).ready(function() {
+            $(".dialog .dismiss").on("click", function() {
+              $(this).closest(".dialog").remove();
+            });
+            console.log("setting timer for slide-in");
+            window.setTimeout(function() {
+                console.log("sliding survey link into view");
+                $("#survey").slideDown(400);
+              },
+              3000); // milliseconds until it slides into view
+          });
+        })(jQuery);
+      </script>
+
+
+
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.sticky-kit.min.js"></script>
+  <script>
+  (function($) {
+    "use strict";
+    $(document).ready(function() {
+      $("#sidenav").stick_in_parent({offset_top: 32});
+    });
+  })(jQuery);
+  </script>
+</body>
+</html>

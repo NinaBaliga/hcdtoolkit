@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>EVAW Apps</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body class="container toolkit-create">
+
+      <header class="row top-header clearfix">
+        <a href="./" class="col-sm-2 hidden-xs">
+          <img class="logo" alt="Brand" src="iconnotext.png" width="128" height="128">
+        </a>
+        <div id="header-tagline-nav" class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2">
+          <h1 class="hidden-xs tagline">A Toolkit for Mobile App Development for Ending Violence Against Women</h1>
+          <div class="navbar navbar-default">
+            <div class="navbar-header visible-xs-block">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toolkit-header-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="./" class="navbar-brand">
+                <img alt="Brand" src="iconnotext.png" width="32" height="32">
+              </a>
+            </div>
+
+            <nav id="toolkit-header-nav" class="toolkit-nav collapse navbar-collapse">
+              <!--
+                the following <nav> tag captures a navigation group within the hamburger
+                menu. to make the current page's topic expanded by default, remove
+                the "collapsed" class from the <button> and set its "aria-expanded"
+                attribute to "true", and remove the "collapse" and "navbar-collapse"
+                classes from the <ul>
+              -->
+              <nav class="toolkit-hear toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-hear" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="hear.html">
+                    Hear
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-hear" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "CREATE" -->
+              <nav class="toolkit-create toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-create" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Create
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-create" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "DELIVER" -->
+              <nav class="toolkit-deliver toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-deliver" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Deliver
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                  <ul id="header-subnav-deliver" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- general navbar links, not within a topic -->
+              <nav class="toolkit-general-links">
+                <ul class="nav navbar-nav">
+                  <li><a href="mobileforevaw.html">Mobile for EVAW</a></li>
+                  <li><a href="vxwaward.html">VXW Award</a></li>
+                  <li><a href="evawapps.html">EVAW Apps</a></li>
+                  <li><a href="hcd.html">HCD</a></li>
+                </ul>
+              </nav>
+
+            </nav>
+          </div>
+        </div>
+      </header>
+
+        </nav>
+
+        <!-- MAIN SECTION STARTS -->
+
+      <main class="col-sm-12" id="main-content" class="matrix">
+          <section class="intro">
+            <h1> EVAW Apps </h1>
+          </section>
+
+<!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="safeagenticon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="android.png" width="72" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Safe Agent 008</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="safeagentscreen1.png">
+                </div>
+                <p> Safe Agent 008 is a personal network notification app for users to be able to discreetly and quickly contact up to 10 trusted family and friends if they feel unsafe. This app also has an anonymous reporting feature to further advocacy efforts for improved safety and security in urban spaces.</p>
+                <p style="font-size: 10px"> *VXW Award App</p>
+                <a href="https://play.google.com/store/apps/details?id=com.dmi.tnra&amp;hl=en" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="7plusicon.jpeg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphone.png" width="72" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">7 Plus</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="7pluscreen.png">
+                </div>
+                <p>7 Plus has a series of voice narrated features to increase awareness about relevant rights and laws, motivational stories from other women working in the sector, and dial-in features to peer and support groups.</p>
+                <p style="font-size: 10px"> *VXW Award App</p>
+                <a href="https://itunes.apple.com/us/app/7-plus/id1003686777?mt=8" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+          <section class="matrix-boxes">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="krousaricon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="android.png" width="72" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Krousar Koumrou</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="krousarscreen.png">
+                </div>
+                <p> Through a series of animated features and a sharable quiz, this app will help change negative attitudes and be an educational tool to increase knowledge to end domestic violence.</p>
+                <p style="font-size: 10px"> *VXW Award App</p>
+                <a href="https://play.google.com/store/apps/details?id=com.dmi.krousarkomrou" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="safetipinicon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Safetipin</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="safetipinscreen.png">
+                </div>
+                <p> Designed to collect data about violence and map this as a method of providing reliable data to users and stakeholders and an awareness-raising tool to inspire activism. Key features include:</p>
+                <ul>
+                  <li>Tracking: track a person who has turned his/her Track Me button on</li>
+                  <li>SafetyScore: safety score of locality or place by 9 parameters of Safety Audit</li>
+                  <li>Locate: search for useful establishments nearby</li>
+                </ul>
+                <a href="http://safetipin.com/" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="hollabackicon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Hollaback!</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="hollabackscreen.png">
+                </div>
+                <p> Allows women to report their harassment in real time. A victime can anonymously report an incident and share stories with the community.</p>
+                <a href="https://itunes.apple.com/us/app/hollaback!/id379866261?mt=8" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="babyicon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Not your baby</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="babyscreen.png">
+                </div>
+                <p>Not Your Baby’s content is based on ideas and experiences shared by 238 people who responded to a survey on the issues. It won’t have all the answers, but it can help you get a real understanding of how others have responded and how they found support. </p>
+                <a href="https://itunes.apple.com/us/app/not-your-baby/id545191859?mt=8" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+<!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="whaticon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">What It Is Quiz</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="whatscreen.png">
+                </div>
+                <p> Funded by TELUS and Department of Justice Canada, “What It Is” is a Canada-wide online and mobile quiz game that raises awareness about sexual violence and supports youth 12 to 25 dealing with sexual violence. It was created with diverse youth and launched on November 25, 2010 in honour of the International Day for the Elimination of Violence Against Women.</p>
+                <a href="http://www.metrac.org/gamesandapps/" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="freedom.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Freedom Charity</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="freedomscreen.png">
+                </div>
+                <p>The main aspects of the app are concerned with 3 main groups.You, as a potential victim of forced marriage, or other abuse. Your friend, as the best person to help you,and to see the signs of abuse. And professionals who are educated by the app to look for signs of abuse.</p>
+                <a href="http://www.freedomcharity.org.uk/freedom-app/" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+
+
+ <!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="td411icon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">td411</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="td411screen.png">
+                </div>
+                <p> Td411 is a mobile app developed to provide teenagers with information on dating and teen dating violence. Through this mobile app, developed by Connecticut Coalition Against Domestic Violence (CCADV), teenagers will obtain valuable information on healthy and unhealthy relationships, safety planning and available resources for getting help. CCADV is a membership organization composed of Connecticut’s 18 domestic violence service organizations. Services provide by member organizations include counseling, support groups, emergency shelter, court advocacy, and safety planning.</p>
+                <a href="http://www.ctcadv.org/projects-initiatives/td411/" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="loveicon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphone.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Love is not abuse</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="lovescreen.png">
+                </div>
+                <p>This application simulates for parents the abuse that many teens endure in their dating relationships. For just a few minutes, application users will receive text messages, emails and phone calls from a ‘boyfriend’ or ‘girlfriend’ that mimic the actual communications abused teens receive - in many cases, all day and night. Videos on such topics as privacy invasion, deleting a partner’s friends on social networks and unauthorized access to a boyfriend or girlfriend’s social networks teach parents about the destructive behaviors in digitally abusive relationships.</p>
+                <a href="https://itunes.apple.com/us/app/lina/id443740581?mt=8" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+ <!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="oneloveicon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">One Love My Plan</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="onelovescreen.png">
+                </div>
+                <p> Everyone deserves to be safe in their intimate relationship. That’s why the One Love Foundation and researchers created My Plan to help college-age women, and the friends who care about them, learn about healthy and unhealthy relationships and find personalized information and resources. </p>
+                <a href="http://www.joinonelove.org/my_plan_app" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="r3icon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">R3: Recognize, Respond and Refer</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="r3screen.png">
+                </div>
+                <p>The R3 App, which stands for Recognize, Respond and Refer, is the first mobile domestic abuse screening tool in the U.S. and the leverages the research based HITS screening tool created 13 years ago and used across the globe.</p>
+                <a href="https://itunes.apple.com/us/app/lina/id443740581?mt=8" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+ <!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="ruicon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">RUsafe</h2>
+                  <h3 class="category">Category: Prevention</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="ruscreen.png">
+                </div>
+                <p> RUSafe is a free dangerous relationship assessment app serving the continental United States. RUSafe invites the user to answer a series of questions about her/his relationship. The app then calculates the responses and, if there is cause for concern, it will enable the user to directly call the Domestic Violence Hotline nearest them. If the user is in immediate lethal danger, she/he can call 911 directly from the app. RUSafe is based on the Danger Assessment developed by Jacquelyn C. Campbell, PhD, RN, FAAN of Johns Hopkins School of Nursing. Learn more at www.RUSafe.net. </p>
+                <a href="http://www.wcspittsburgh.org/RUSafe" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="vineicon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">VINEmobile</h2>
+                  <h3 class="category">Category: Protection</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="vinescreen.png">
+                </div>
+                <p>VINEmobile is the mobile app version of VINE (Victim Information and Notification Everyday), the National Victim Notification Network. The app allows victims to register for timely and reliable information regarding the custody status of offenders 24 hours a day. Victims and concerned citizens can register to be notified by phone, email, text message (where applicable) or TTY device when an offender’s custody status changes. Users can also register through their participating state or county toll-free number.</p>
+                <a href="http://www.appriss.com/vine.html" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+ <!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="ieaaicon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphone.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">iEAA (Evidence Abuse Affidavit)</h2>
+                  <h3 class="category">Category: Protection</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="ieaascreen.png">
+                </div>
+                <p>  This Application provides users with a step by step method to create and record their EAA using an iPad 2/3 or iPhone 4G and above. The App walks potential victims through the process of creating their own video testimony and then securely time stamps the video to prove it's existence.</p>
+                <a href="https://itunes.apple.com/us/app/ieaa/id538084573?mt=8" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="documenticon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphone.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Document it!</h2>
+                  <h3 class="category">Category: Protection</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="documentscreen.png">
+                </div>
+                <p>The application Document It is designed by Training Insititute on Strangulation Prevention to help women document their incidents and references of an event. Gather as much detail as possible using a mobile application and submit the evidence to law enforcement officers or to an attorney with a click of a button.</p>
+                <a href="https://itunes.apple.com/us/app/document-it!/id669059716?mt=8" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+  <!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="stopicon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphone.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Stop a Stalker</h2>
+                  <h3 class="category">Category: Protection</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="stopscreen.png">
+                </div>
+                <p> Empower yourself to stop being a victim, and take action against a stalker. Collect information, collate it, and report to authorities in a simple app made for victims of stalking. Made in conjunction with leading criminologists and victim support forums, StopaStalker is your tool to start fighting back.</p>
+                <a href="https://itunes.apple.com/us/app/stopastalker/id645238415?mt=8&ign-mpt=uo%3D4%253E" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="safeicon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Safenight</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="safescreen.png">
+                </div>
+                <p>SafeNight is a mobile app that alerts individual donors to fund hotel rooms when local domestic violence shelters are full. Agencies use a web-based tool to send a request for emergency funding and donors receive an opportunity to pay via SafeNight.</p>
+                <a href="https://itunes.apple.com/us/app/document-it!/id669059716?mt=8" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+   <!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="eyeicon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Eyewatch</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="eyescreen.png">
+                </div>
+                <p> With the click of a button, Eyewatch informs your Call Guardians where you are and what is happening. Eyewatch is the only known app in the world which captures audio before activation, Records Video after, and calls your Call Guardians one after the other on Speakerphone automatically. Eyewatch uses both GPS and Network triangulation algorithms to determine your location with maximum accuracy and share it with your call Guardians.</p>
+                <a href="https://www.eye-watch.in/Login.action" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="circleicon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Circle of 6</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="circlescreen.png">
+                </div>
+                <p>Circle of 6 lets you choose six trusted friends to add to your circle. If you get into an uncomfortable or risky situation, use Circle of 6 to automatically send your circle a pre-programmed SMS alert message, with your exact location. It’s quick. It’s discreet. Two taps is all it takes. Circle of 6 also connects you to 24h hotlines for safety and information, as well as Scarleteen.com, a comprehensive online sexual health resource.</p>
+                <a href="https://itunes.apple.com/us/app/document-it!/id669059716?mt=8" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+   <!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="vithuicon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">VithU</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="vithuscreen.png">
+                </div>
+                <p> VithU, is an emergency App that, at the click of the power button of your smartphone 2 times consecutively begins sending out alert messages every 2 minutes to your contacts that you feed into the app as the designated receivers or guardians.
+                The message says "I am in danger. I need help. Please follow my location."</p>
+                <a href="https://itunes.apple.com/in/app/vithu/id694044469?mt=8" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="shakeicon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="android.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Shake SOS</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="shakescreen.png">
+                </div>
+                <p>ShakeSOS (Code name "Nirbhaya") is an innovative Android app to prevent sexual assuault or any other crime with you. It is a secure way to call for help and let your friend and family know about any danger you are in. Just shake your device to instantly and securely share your location and custom message with your family and friends.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.mobbots.shakesos&hl=en" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+
+   <!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="aspireicon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Aspire News</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="aspirescreen.png">
+                </div>
+                <p> Aspire News is a free application which contains summaries of top stories in world, sports, and entertainment news, from the When Georgia Smiled: Robin McGraw Foundation (and powered by Yahoo!).
+
+                Additionally, if someone you know is in an abusive relationship—or if that someone is you—the Help Section of the application contains resources for victims of domestic violence.</p>
+                <a href="https://www.whengeorgiasmiled.org/the-aspire-news-app/" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="onwatchicon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">On Watch</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="onwatchscreen.png">
+                </div>
+                <p>OnWatchOnCampus® is designed to help keep you safe by giving you the tools to plan and inform the people you trust when you need help.
+                OnWatchOnCampus® has six customizable alert modes that allow you the flexibility to alert your friends, your Campus Police, local 911 or a combination of all three if you need help. In just two taps, you can send out an alert via phone, text, email and Facebook.</p>
+                <a href="http://www.onwatchoncampus.com/what-is-onwatch.php" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+
+    <!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="fighticon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">FightBack</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="fightscreen.png">
+                </div>
+                <p> FightBack, the women's safety application, sends SOS alerts from your phone. FightBack uses GPS, SMS, location maps, GPRS ,email and your Facebook account to inform your loved ones in case you are in danger. </p>
+                <a href="https://www.fightbackmobile.in" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="ifollow.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="android.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">On Watch</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="ifollowscreen.jpg">
+                </div>
+                <p>iFollow won Nasscom AppFame AWARD for ladies safety.
+                  iFollow is a personal app which works on your mobile silently. This works as a background activity to reduce power consumption. iFollow is an app developed for helping people in accidents or similar danger situations. Once iFollow is activated, your phone is capable to generate calls to your prime contacts by just shaking the device. </p>
+                <a href="https://play.google.com/store/apps/details?id=com.aucupa.alertsystem&hl=en" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+
+
+    <!-- 
+ Pair Section Begins Here -->         
+          <section class="matrix-boxes ">
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="womenicon.jpg" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="iphoneandroid.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Women's Security App</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="womenscreen.png">
+                </div>
+                <p> Here we introduces an app which ensures the safety of women.This helps to identify and call on resources to help the one out of dangerous situations.This reduce risk and bring assistance when we need it and help us to identify the location of the one in danger.
+                We recommend our app since it have some key features which diverse it from others. </p>
+                <a href="https://play.google.com/store/apps/details?id=com.zayaninfotech.security" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+            <div class="matrix-box">
+              <div class="box-header clearfix">
+                <img class="app-icon " src="daminiicon.png" width="72" height="72" class="pull-left">
+                <img class="platform-icon " src="android.png" width="auto" height="72" class="pull-right">
+                <div class="app-info">
+                  <h2 class="app-name">Damini</h2>
+                  <h3 class="category">Category: Response</h3>
+                  <h3 class="price">Free</h3>
+                </div>
+              </div>
+              <div class="app-desc">
+                <div class="app-screenshot">
+                  <img src="daminiscreen.png">
+                </div>
+                <p>Amidst increasing concerns for safety of women, KloudData Inc. has tried to do its bit by bringing forth this app ‘Damini’ for the safety of ladies. Aptly named in tribute to the Delhi brave heart, this app helps women in distress immediately alert their near and dear ones by sending an SOS message that has their current address and location details. Moreover, the app starts recording video clips using phone’s camera, continuously sends the recorded clips to Cloud and also sends the links to these videos as SMS to the group.
+                You can create the alert group by adding people from the phone’s contact book. Just long press a particular contact to remove it from the group. </p>
+                <a href="https://play.google.com/store/apps/details?id=com.klouddata.damini&hl=ko" class="toolkit-callout-btn">GET THIS APP</a>
+              </div>
+            </div>
+          </section>
+
+<!-- End of Paired Section
+ -->
+
+        </main>
+
+
+
+<!-- 
+- Footer Section -->
+
+      <footer class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-default">
+              
+              <ul class="nav navbar-nav pull-left">
+                <li><a href="http://vxwaward.org"><img alt="vxwaward" src="vxwlogo.png" width="auto" height="32"></a></li>
+                <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"><img alt="dfid" src="UK.png" width="auto" height="32"></a></li>
+                <li><a href="http://asiafoundation.org/country/overview/cambodia"><img alt="taf" src="taflogo.png" width="auto" height="32"></a></li>
+              </ul>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="about.html">About</a>
+                <li><a href="http://www.vxwaward.org/contact-us.html">Contact</a>
+                <li><a href="glossary.html">Glossary</a>
+                <li><a href="sitemap.html">Site Map</a>
+              </ul>
+            </nav>  
+        </div>
+      </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+      <!-- "Survey" section -->
+      <style> #survey { display: none; height: auto;} </style> <!-- hide at first -->
+      <div id="survey" class="dialog">
+        <a class="survey-link" href="http://goo.gl/forms/mNzftuEJmO" target="_blank">Let us know what you think!</a>
+        <button class="dismiss glyphicon glyphicon-remove" aria-label="Dismiss"></button>
+      </div>
+      <script>
+        (function($) {
+          "use strict";
+          console.log("script running");
+          $(document).ready(function() {
+            $(".dialog .dismiss").on("click", function() {
+              $(this).closest(".dialog").remove();
+            });
+            console.log("setting timer for slide-in");
+            window.setTimeout(function() {
+                console.log("sliding survey link into view");
+                $("#survey").slideDown(400);
+              },
+              3000); // milliseconds until it slides into view
+          });
+        })(jQuery);
+      </script>
+
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.sticky-kit.min.js"></script>
+  <script>
+  (function($) {
+    "use strict";
+    $(document).ready(function() {
+      $("#sidenav").stick_in_parent({offset_top: 32});
+    });
+  })(jQuery);
+  </script>
+</body>
+</html>

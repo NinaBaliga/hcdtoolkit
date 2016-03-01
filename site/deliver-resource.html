@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Resource</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body class="container toolkit-deliver">
+
+      <header class="row top-header clearfix">
+        <a href="./" class="col-sm-2 hidden-xs">
+          <img class="logo" alt="Brand" src="iconnotext.png" width="128" height="128">
+        </a>
+        <div id="header-tagline-nav" class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2">
+          <h1 class="hidden-xs tagline">A Toolkit for Mobile App Development for Ending Violence Against Women</h1>
+          <div class="navbar navbar-default">
+            <div class="navbar-header visible-xs-block">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toolkit-header-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="./" class="navbar-brand">
+                <img alt="Brand" src="iconnotext.png" width="32" height="32">
+              </a>
+            </div>
+
+            <nav id="toolkit-header-nav" class="toolkit-nav collapse navbar-collapse">
+              <!--
+                the following <nav> tag captures a navigation group within the hamburger
+                menu. to make the current page's topic expanded by default, remove
+                the "collapsed" class from the <button> and set its "aria-expanded"
+                attribute to "true", and remove the "collapse" and "navbar-collapse"
+                classes from the <ul>
+              -->
+              <nav class="toolkit-hear toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-hear" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="hear.html">
+                    Hear
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-hear" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "CREATE" -->
+              <nav class="toolkit-create toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-create" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Create
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-create" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "DELIVER" -->
+              <nav class="toolkit-deliver toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-deliver" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Deliver
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                  <ul id="header-subnav-deliver" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- general navbar links, not within a topic -->
+              <nav class="toolkit-general-links">
+                <ul class="nav navbar-nav">
+                  <li><a href="mobileforevaw.html">Mobile for EVAW</a></li>
+                  <li><a href="vxwaward.html">VXW Award</a></li>
+                  <li><a href="evawapps.html">EVAW Apps</a></li>
+                  <li><a href="hcd.html">HCD</a></li>
+                </ul>
+              </nav>
+
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- BEGINNING OF MAIN BODY -->
+
+      <section class="row">
+        <nav id="sidenav" class="col-sm-3 col-md-2 hidden-xs toolkit-nav toolkit-topic-nav">
+
+          <!-- main sidenav section for HEAR -->
+
+          <nav class="toolkit-hear toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#sidebar-subnav-hear" aria-expanded="false">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="hear.html">
+                Hear
+              </a>
+
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-hear" class="toolkit-subnav nav collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+            </ul>
+          </nav>
+
+          <!-- /* main sidenav section for CREATE -->
+          <nav class="toolkit-create toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#sidebar-subnav-create" aria-expanded="false">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="create.html">
+                Create
+              </a>
+              
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-create" class="toolkit-subnav nav collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+            </ul>
+          </nav>
+          <!-- /* main sidenav section for DELIVER
+ -->
+
+          <nav class="toolkit-deliver toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle " data-toggle="collapse" data-target="#sidebar-subnav-deliver" aria-expanded="true">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="deliver.html">
+                Deliver
+              </a>
+
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-deliver" class="toolkit-subnav nav collapse in">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+            </ul>
+          </nav>
+
+        </nav>
+
+        <!-- MAIN SECTION STARTS -->
+
+        <main class="col-sm-7 col-sm-offset-1 col-md-8" id="main-content">
+          <section class="intro">
+            <h1> Identify required resources </h1>
+            <p> Once you have finalized prototyping and testing the app, it is time to consider what resources you will need to build a mobile app. Below are the factors that we kept in mind.</p>
+          </section>
+
+          <!-- sample section content generic -->
+
+          <section class="clearfix">
+           <p> <b>Cost:</b> The cost depends entirely on the type of app you want to build. For example, it can range from $3,000 to $8,000 for a simple and basic app to $50,000 to $150,000 or more for a more complex app loaded with a number of features.</p>
+ 
+            <p>Therefore, you need to consider what your requirements for your app idea are and get some quotes of the actual development cost from experienced app developers. To get a good sense of the budget, you may use app development cost calculators provided by several mobile app and platform companies below. <p>
+
+            <p><a href="https://www.otreva.com/calculator/#"> Otreva App Calculator </a></p>
+            <p><a href="https://www.imason.com/mobile-app-calculator"> New Signature Mobile App Calculator</a></p>
+            <p><a href="http://www.kinvey.com/mbaas-savings-calculator"> Kinvey mBaaS Savings Calculator</a></p>
+            <p><a href="https://www.visualize-roi.com/launch/kony/cloud/">Kony App Calculator</a></p>
+
+            <p><b>Revenue:</b>You will need to determine how you will pay for the apps development, ongoing maintenance, and future updates or iterations. Many apps designed for social causes are funded through grants or investment from donors or NGOs. Others are paid for through funds raised from sponsorships, crowdfunding, or other fundraising efforts. Some apps generate their own revenue through advertisements, and some charge users to download the app. Apps with revenue generating potential can sometimes attract investment capital, where such markets exist. Try completing the Business Model Canvas or other business model tools included in the tools section to help you reflect on your revenue and costs.</p>
+
+            <p><b>Time:</b> The time required to build an app greatly varies depending not only on the number of features and the complexity of each feature, but also on who is designing, implementing and testing your app. It takes at least 2 to 3 months to develop a basic stand alone app and more than 4 months to create an app with backend integration from start to launch. </p>
+
+            <p><b>App developer:</b> The type of app development partner or method you choose will impact the budget and timeline of the project. For instance, offshoring development or using freelancers is a lower cost option compared to working with specialized mobile app development agencies. Choose a developer that fits your needs in terms of budget, timelines, quality, and experience. </p>
+
+          <aside>
+            <h2>Selecting a Developer </h2>
+            <section>
+            <p> When starting conversations with developers, it's best to have as much detail as possible with regards to functionality and requirements. You may not know this when you begin the HCD process, which is why it is important to work with them from the beginning.  Developer estimates will vary since you may not have your requirements outlined in detail. Therefore, it is important to have an open and honest working relationship with them where you level set expectations. </p>
+            </section>
+          </aside>  
+
+            <p><b>Content development:</b> Creating a content intensive app requires an additional amount of hours and days. There may be a delay in the process until the contents are available, adding to the time it takes to build an app. In the case of end users who have difficulty reading, the App may require animation, videos, specialized icons, and the extensive use of voice content to replace the written word. This adds cost and time to the development of the App and may involve the added expense of hiring actors or other specialists. </p>
+
+            <p><b>Translation: </b>Consider the cost and time for language translation if you want to localize your app.</p>
+
+            <p><b>Partners: </b>The successful promotion, maintenance and sustainability of your app will depend upon including the right stakeholders during implementation. Identify stakeholders and/or partners who you will to engage for: feedback, input or approval during development, support to launch and promote the app, and ongoing involvement to ensure content and resources are updated and responsive to needs. Consider what motivation or incentives each of them needs, and be sure you are aligned in your goals, expectations and timelines.</p>
+
+         </section>
+
+
+ 
+
+      </section>
+
+    </main>
+  </section>
+
+
+
+
+<!-- Footer Forward/Back Section -->
+<footer class="row">
+
+  <!-- Footer - forward/backward links --> 
+  <nav class="col-sm-12 prev-next">
+    <ol class="nav row">
+      <li class="prev toolkit-deliver col-sm-6">
+        <a href="deliver.html" rel="prev">
+          Deliver
+        </a>
+      </li>
+      <li class="next toolkit-deliver col-sm-6">
+        <a href="deliver-implement.html" rel="next">
+          Implement
+        </a>
+      </li>
+    </ol>
+  </nav>
+
+
+<!-- 
+- Footer Section Bottom Nav-->
+
+      <footer class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-default">
+              
+              <ul class="nav navbar-nav pull-left">
+                <li><a href="http://vxwaward.org"><img alt="vxwaward" src="vxwlogo.png" width="auto" height="32"></a></li>
+                <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"><img alt="dfid" src="UK.png" width="auto" height="32"></a></li>
+                <li><a href="http://asiafoundation.org/country/overview/cambodia"><img alt="taf" src="taflogo.png" width="auto" height="32"></a></li>
+              </ul>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="about.html">About</a>
+                <li><a href="http://www.vxwaward.org/contact-us.html">Contact</a>
+                <li><a href="glossary.html">Glossary</a>
+                <li><a href="sitemap.html">Site Map</a>
+              </ul>
+            </nav>  
+        </div>
+      </footer>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+      <!-- "Survey" section -->
+      <style> #survey { display: none; height: auto;} </style> <!-- hide at first -->
+      <div id="survey" class="dialog">
+        <a class="survey-link" href="http://goo.gl/forms/mNzftuEJmO" target="_blank">Let us know what you think!</a>
+        <button class="dismiss glyphicon glyphicon-remove" aria-label="Dismiss"></button>
+      </div>
+      <script>
+        (function($) {
+          "use strict";
+          console.log("script running");
+          $(document).ready(function() {
+            $(".dialog .dismiss").on("click", function() {
+              $(this).closest(".dialog").remove();
+            });
+            console.log("setting timer for slide-in");
+            window.setTimeout(function() {
+                console.log("sliding survey link into view");
+                $("#survey").slideDown(400);
+              },
+              3000); // milliseconds until it slides into view
+          });
+        })(jQuery);
+      </script>
+
+  <script src="js/jquery.sticky-kit.min.js"></script>
+  <script>
+  (function($) {
+    "use strict";
+    $(document).ready(function() {
+      $("#sidenav").stick_in_parent({offset_top: 32});
+    });
+  })(jQuery);
+  </script>
+</body>
+</html>

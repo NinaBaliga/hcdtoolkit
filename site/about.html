@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>About</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body class="container toolkit-create">
+
+      <header class="row top-header clearfix">
+        <a href="./" class="col-sm-2 hidden-xs">
+          <img class="logo" alt="Brand" src="iconnotext.png" width="128" height="128">
+        </a>
+        <div id="header-tagline-nav" class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2">
+          <h1 class="hidden-xs tagline">A Toolkit for Mobile App Development for Ending Violence Against Women</h1>
+          <div class="navbar navbar-default">
+            <div class="navbar-header visible-xs-block">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toolkit-header-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="./" class="navbar-brand">
+                <img alt="Brand" src="iconnotext.png" width="32" height="32">
+              </a>
+            </div>
+
+            <nav id="toolkit-header-nav" class="toolkit-nav collapse navbar-collapse">
+              <!--
+                the following <nav> tag captures a navigation group within the hamburger
+                menu. to make the current page's topic expanded by default, remove
+                the "collapsed" class from the <button> and set its "aria-expanded"
+                attribute to "true", and remove the "collapse" and "navbar-collapse"
+                classes from the <ul>
+              -->
+              <nav class="toolkit-hear toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-hear" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="hear.html">
+                    Hear
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-hear" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "CREATE" -->
+              <nav class="toolkit-create toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-create" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Create
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-create" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "DELIVER" -->
+              <nav class="toolkit-deliver toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-deliver" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Deliver
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                  <ul id="header-subnav-deliver" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- general navbar links, not within a topic -->
+              <nav class="toolkit-general-links">
+                <ul class="nav navbar-nav">
+                  <li><a href="mobileforevaw.html">Mobile for EVAW</a></li>
+                  <li><a href="vxwaward.html">VXW Award</a></li>
+                  <li><a href="evawapps.html">EVAW Apps</a></li>
+                  <li><a href="hcd.html">HCD</a></li>
+                </ul>
+              </nav>
+
+            </nav>
+          </div>
+        </div>
+      </header>
+
+        </nav>
+
+        <!-- MAIN SECTION STARTS -->
+
+        <main class="col-sm-7 col-sm-offset-1 col-md-8" id="main-content">
+          <section class="intro">
+            <h1> About </h1>
+          </section>
+
+            <h2> The Asia Foundation </h2>
+            <p><a href="http://asiafoundation.org/country/overview/cambodia">The Asia Foundation (TAF) </a>is a non-profit international development organization committed to improving lives across Asia. TAF has been working for peace and prosperity with the people of Cambodia since 1955. Through periods of turmoil, reconstruction, and growth, TAF has supported thousands of schools and universities, government agencies, NGOs, citizens’ groups, business associations and small and medium enterprises to help advance Cambodia’s economic, social, and political development.</p>
+
+            <p>TAF supports information and communications technology for development (ICT4D), applying 21st century technologies to advance democracy, human rights, and governance objectives with a strong emphasis on the use of ICTs and access to information. TAF’s approaches to EVAW programs are well-informed, evidence-based, and rooted in decades of experience in designing, implementing, and managing these interventions. Regionally, TAF has supported some of the first shelters to help victims, supported advocacy groups on passage and implementation of VAW laws in several countries, worked with men's groups on cutting-edge "Men Stop Violence" campaigns, and conducted research studies on VAW. Since supporting the first-ever study on domestic violence in Cambodia in 1994, TAF has been working with a range of civil society to raise awareness, advocate for policy change, and change negative attitudes and social customs that perpetuate all forms of VAW, while working politically to increase the capacity of law enforcement, formal and informal justice officials, social service providers, and policymakers to address VAW and respond holistically to the needs of survivors.</p>
+ 
+            <p>Regionally across Asia, TAF has also worked with local software developers, subject-matter experts, and social entrepreneurs to generate high quality, impactful technology solutions within a range of contexts. These projects have given citizens access to innovative new apps and websites that enhance understanding and disseminate crucial information. They also exhibit a new way for software developers to engage with and support their societies and governments, strengthening the ability of young creators and activists to effect positive change.</p>
+
+          
+            <p><h2>Who is this toolkit for? </h2></p>
+            <p>This toolkit was designed for activists, community leaders and other individuals and organizations seeking to design mobile applications to help End Violence Against Women, or other social causes. You need not necessarily have deep expertise in mobile technology or EVAW to use the toolkit, as the steps will help you deepen your understanding of the people and problem you are addressing, and ensure you are equipped with the language and outputs you need to take your app to a developer.</p>
+
+
+
+            <h2> UK Department for International Development </h2>
+            <p> This toolkit was funded through the generous support of the United Kingdom's Department for International Development (DFID)</p>
+
+            <p><a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/267720/AVAW-security-justice-progA.pdf">DFID (2013) Addressing Violence Against Women and Girls through Security and Justice (S&J) Programming</a></p>
+
+            <p> Preventing VAWG is also a priority for DFID’s Ministerial team:
+              <ul>
+                <li>DFID’s Business Plan (2011-15) commits DFID to pilot new and innovative approaches to prevent VAWG and to help 10 million women to access security and justice services by 2015.</li>
+                <li>Preventing VAWG is also one of four pillars in DFID’s Strategic Vision for Girls and Women (2011), which includes support to “reform and strengthen security services, police, and policy and decision making bodies to improve women’s access to security and justice services”. It also stresses the need to Support the “enabling environment” by challenging discriminatory attitudes & behaviours, increasing the value given to girls and women; building effective legal frameworks to protect rights of women and girls; increasing the power of women to make informed choices and control decisions that affect them.</li>
+              </ul>
+            </p>
+
+            <p><a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/67582/strategic-vision-girls-women.pdf ">DFID (2011) Strategic Vision for Women and Girls</a></p>
+
+            <p> Preventing violence </p>
+
+            <p>DFID will support interventions to reform and strengthen security services, police, and policy and decision making bodies to improve women’s access to security and justice services. We will help 10 million women to access justice through the courts, police, and legal assistance. This will include supporting survivors of violence to seek legal redress, alongside resolving disputes over issues such as land and inheritance.</p>
+            <p>We aim to work in at least 15 countries to address physical and sexual violence against girls and women – increasing the numbers of survivors who have access to treatment and advice, and whose cases are satisfactorily investigated. Innovative approaches to creating safe spaces for girls and women will be explored, along with work to support behaviour change, by challenging social attitudes and perceptions. We recognise that there are significant knowledge gaps on the extent and nature of violence against girls and women and of effective interventions to address it – we will work with partners to build the evidence base. We will closely monitor our country pilots to identify interventions that can be taken to scale.</p>
+
+                        <p><h2> Credits</h2></p>
+            <p>Refined HCD Toolkit:</p>
+            <ul>
+              <li> Designed and Built By: Nina Baliga</li>
+              <li> Written by: Nina Baliga, Jacie Jones, Erin Bourgois, Setha Rath, and Bak Chami.</li>
+              <li> Icons created by: Andrew Was, Nikolay Necheuhin, from the Noun Project</li>
+              <li> Images provided by: The Asia Foundation, Malin Lok, Erin Bourgois,.....</li>
+            </ul>
+
+
+
+      </section>
+
+    </main>
+  </section>
+
+
+
+
+<!-- 
+- Footer Section -->
+
+      <footer class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-default">
+              
+              <ul class="nav navbar-nav pull-left">
+                <li><a href="http://vxwaward.org"><img alt="vxwaward" src="vxwlogo.png" width="auto" height="32"></a></li>
+                <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"><img alt="dfid" src="UK.png" width="auto" height="32"></a></li>
+                <li><a href="http://asiafoundation.org/country/overview/cambodia"><img alt="taf" src="taflogo.png" width="auto" height="32"></a></li>
+              </ul>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="about.html">About</a>
+                <li><a href="http://www.vxwaward.org/contact-us.html">Contact</a>
+                <li><a href="glossary.html">Glossary</a>
+                <li><a href="sitemap.html">Site Map</a>
+              </ul>
+            </nav>  
+        </div>
+      </footer>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+      <!-- "Survey" section -->
+      <style> #survey { display: none; height: auto;} </style> <!-- hide at first -->
+      <div id="survey" class="dialog">
+        <a class="survey-link" href="http://goo.gl/forms/mNzftuEJmO" target="_blank">Let us know what you think!</a>
+        <button class="dismiss glyphicon glyphicon-remove" aria-label="Dismiss"></button>
+      </div>
+      <script>
+        (function($) {
+          "use strict";
+          console.log("script running");
+          $(document).ready(function() {
+            $(".dialog .dismiss").on("click", function() {
+              $(this).closest(".dialog").remove();
+            });
+            console.log("setting timer for slide-in");
+            window.setTimeout(function() {
+                console.log("sliding survey link into view");
+                $("#survey").slideDown(400);
+              },
+              3000); // milliseconds until it slides into view
+          });
+        })(jQuery);
+      </script>
+
+  <script src="js/jquery.sticky-kit.min.js"></script>
+  <script>
+  (function($) {
+    "use strict";
+    $(document).ready(function() {
+      $("#sidenav").stick_in_parent({offset_top: 32});
+    });
+  })(jQuery);
+  </script>
+</body>
+</html>

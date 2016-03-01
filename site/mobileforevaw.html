@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Mobile for EVAW</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body class="container toolkit-create">
+
+      <header class="row top-header clearfix">
+        <a href="./" class="col-sm-2 hidden-xs">
+          <img class="logo" alt="Brand" src="iconnotext.png" width="128" height="128">
+        </a>
+        <div id="header-tagline-nav" class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2">
+          <h1 class="hidden-xs tagline">A Toolkit for Mobile App Development for Ending Violence Against Women</h1>
+          <div class="navbar navbar-default">
+            <div class="navbar-header visible-xs-block">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toolkit-header-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="./" class="navbar-brand">
+                <img alt="Brand" src="iconnotext.png" width="32" height="32">
+              </a>
+            </div>
+
+            <nav id="toolkit-header-nav" class="toolkit-nav collapse navbar-collapse">
+              <!--
+                the following <nav> tag captures a navigation group within the hamburger
+                menu. to make the current page's topic expanded by default, remove
+                the "collapsed" class from the <button> and set its "aria-expanded"
+                attribute to "true", and remove the "collapse" and "navbar-collapse"
+                classes from the <ul>
+              -->
+              <nav class="toolkit-hear toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-hear" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="hear.html">
+                    Hear
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-hear" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "CREATE" -->
+              <nav class="toolkit-create toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-create" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Create
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-create" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "DELIVER" -->
+              <nav class="toolkit-deliver toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-deliver" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Deliver
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                  <ul id="header-subnav-deliver" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- general navbar links, not within a topic -->
+              <nav class="toolkit-general-links">
+                <ul class="nav navbar-nav">
+                  <li><a href="mobileforevaw.html">Mobile for EVAW</a></li>
+                  <li><a href="vxwaward.html">VXW Award</a></li>
+                  <li><a href="evawapps.html">EVAW Apps</a></li>
+                  <li><a href="hcd.html">HCD</a></li>
+                </ul>
+              </nav>
+
+            </nav>
+          </div>
+        </div>
+      </header>
+
+        </nav>
+
+        <!-- MAIN SECTION STARTS -->
+
+        <main class="col-sm-7 col-sm-offset-1 col-md-8" id="main-content">
+          <section class="intro">
+            <h1> Why Mobile for EVAW? </h1>
+          </section>
+
+            <h2>What is VAW?</h2>
+
+            <p>Any act of gender-based violence that results in, or is likely to result in, physical, 
+            sexual or mental harm or suffering to women, including threats of such acts, coercion or 
+            arbitrary deprivation of liberty, whether occurring in public or private life. - <i>Defined by the United 
+            Nations</i></p>
+
+            <h2> ROOT CAUSES OF VAW</h2>
+            <img src="women.png" style="width: auto; height: 300px" class="pull-left">
+            <p>The 1993 Declaration on the Elimination of Violence against Women recognized violence against women as a manifestation of historically unequal power relations between men and women, both arising from and reinforcing gender inequality and discrimination. 
+
+            Society’s attitudes towards and practices of gender discrimination that place women and men in rigid roles and positions of power – with women in a subordinate position in relation to men. The accepted gender roles and lack of social and economic value for women and women’s work strengthen the assumption that men have decision-making power and control over women. Through acts of VAW perpetrators seek to maintain privileges, power, and control over others – this disregard for or lack of awareness about human rights, gender equality, democracy and nonviolent means of resolving problems continue the inequality that leads to VAW.</p>
+
+            <h2> VAW INTERVENTIONS</h2>
+
+            <p>Traditional VAW interventions can be divided into Prevention, Protection and Response, and each can be directed at an individual level, community level or societal level.
+
+            <p><b>Prevention:</b>
+            <ul>
+              <li>Stopping VAW before it occurs or decreasing the likelihood of violence from reoccurring by eliminating underlying causes, reducing risk factors, and strengthening protective factors.<i>Examples: behavior change communication campaigns, efforts to increase community-level safety and security, positive media messaging initiatives, and public service announcements.</i></li>
+            </ul></p>
+            <p><b>Protection:</b>
+            <ul>
+              <li>Ensuring women’s rights and security and increasing access to justice by improving legal frameworks, promoting judicial action, and ensuring effective recourse. <i>Examples: national action plans, training programs for local authorities, legal information for victims and survivors, and improvements to reporting channels and/or case management systems.</i></li>
+            </ul></p>
+            <p><b>Response:</b></p>
+            <ul>
+              <li>The provision of services to victims and survivors such as medical, psychological, and social support. <i>Examples: counselling, shelter, peer support networks, strengthening referral systems, and raising awareness about available services.</i></li>
+          </ul></p>
+
+
+            <h2>MOBILE SOLUTIONS</h2>
+            <img src="mobilewomen.png" style="width: auto; height:300px" class="pull-left">
+            <p>Mobile phone access is exponentially increasing around the world. While access is still very limited for women in many places, the number of women who have a mobile phone is growing by the day.</p>
+
+            <p>This increased connectivity provides new opportunities for women to access peers, resources, and information - and in some cases, has been credited for increased feelings of safety and security. In addition to the basic features of a phone, such as voice calls, individual and group messaging, and contact directories, smartphones also provide opportunities to access the internet and millions of apps. This in turn poses exciting new potential to improve prevention, protection and response initiatives, and support global efforts for EVAW.</p>
+
+            <p>A plethora of new apps have been created for this very purpose. Many of them seek to provide ways for women to alert authorities, report violence, or contact help in the case of an emergency. Others collect data or provide information on support services, resource directories and general awareness. Social networking apps have also been used as tools to create support groups, awareness campaigns, and networks of stakeholders. (Learn more about existing EVAW Apps.)</p>
+
+            <p>However, just as they can provide a promising tool for survivors and supporting organizations, mobile phones can also provide perpetrators a tool to reinforce control and abuse. According to the <a href="https://www.apc.org/en/system/files/How%20Technology%20is%20Being%20Used%20to%20Perpetrate%20Violence%20Against%20Women%20%E2%80%93%20And%20to%20Fight%20it.pdf">APC</a>, monitoring of phone activity, incriminating photos or data, phone and location tracking, and abusive messages, calls and online comments are all increasingly prevalent with mobile phone access. Therefore, equal consideration must be paid to the opportunities and threats that mobile solutions pose. Using discretion and protecting privacy are critical to ensuring mobile solutions do no harm to their end users.</p>
+
+      </section>
+
+       <section class="row">
+        <main class="col-sm-10 col-sm-offset-1" id="main-content">       
+        <aside class="consider">
+          <h2>Ethical and Safety Guidelines</h2>
+          <section>
+            <p> The following guidelines for mobile app development for EVAW are adapted from the World Health Organization's ethical and safety guidelines for GBV research.</p>
+            <ol>
+              <li>DO NO HARM
+              Treat each woman and the situation as if the potential for harm is extreme until there is evidence to the contrary. Do not undertake any intervention that will make a woman’s situation worse in the short term or longer term. </li>
+              <li>KNOW YOUR SUBJECT AND ASSESS THE RISKS
+              Learn the risks associated with VAW and your target group before undertaking any intervention. </li>
+              <li> PREPARE REFERRAL INFORMATION – DO NOT MAKE PROMISES THAT YOU CANNOT FULFILL
+              Be prepared to provide information in a woman’s native language about appropriate legal, health, shelter, social support, and security services, and to help with referral, if requested. If the app discloses contact information for support services, it is critical that phone numbers and contact information are correct.</li> 
+              <li>ADEQUATELY SELECT AND PREPARE INTERPRETERS, DEVELOPERS, DESIGNERS, FACILITATORS, AND OTHERS WORKING DIRECTLY ON THE PROJECT
+              Weigh the risks and benefits associated with employing interpreters, developers, designers, facilitators, or others, and develop adequate methods for screening and training. Make sure that members of the team receive gender and VAW sensitivity training and understand the ethical and safety guidelines. </li>
+              <li> ENSURE ANONYMITY AND CONFIDENTIALITY
+              Protecting confidentiality is essential to ensure both the women’s safety and the data quality. To manage confidentiality (a critical issue for EVAW-focused apps), data should be sufficiently aggregated, and report fields should be pre-populated and/or contain algorithms to not risk disclosing or collecting sensitive information about the user. App icons should be discreet to not arouse suspicion and potentially put the user in greater danger.</li> 
+              <li> GET INFORMED CONSENT
+              When gathering information from target groups or users, make certain that each respondent clearly understands the content and purpose of the interview, the intended use of the information, her right not to answer questions, her right to terminate the interview at any time, and her right to put restrictions on how the information is used. If information is collected from the app (like an anonymous reporting app), disclaimers and prompts should clearly indicate the purpose of the reporting feature and how the data will be used. </li>
+              <li> LISTEN TO AND RESPECT EACH WOMAN’S ASSESSMENT OF HER SITUATION AND RISKS TO HER SAFETY
+              Recognize that each woman will have different concerns, and the way she views her concerns may be different from how others might assess them. </li>
+              <li> DO NOT RE-TRAUMATIZE A WOMAN
+              Do not ask questions intended to provoke an emotionally charged response. Be 
+              prepared to respond to a woman’s distress and highlight her strengths.</li>
+              <li> BE PREPARED FOR EMERGENCY INTERVENTION
+              Be prepared to respond if a woman says she is imminent danger. Team members or interviewers should be trained to refer women requesting assistance to available local services and sources of support. </li>
+              <li> PUT INFORMATION COLLECTED TO GOOD USE
+              Use information in a way that promotes safety and security for women and girls or that advances the development of good policies and interventions for EVAW. </li>
+            </ol>
+          </section>
+        </aside>
+        </main>
+      </section>
+
+
+    </main>
+  </section>
+
+
+
+<!-- 
+- Footer Section -->
+
+      <footer class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-default">
+              
+              <ul class="nav navbar-nav pull-left">
+                <li><a href="http://vxwaward.org"><img alt="vxwaward" src="vxwlogo.png" width="auto" height="32"></a></li>
+                <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"><img alt="dfid" src="UK.png" width="auto" height="32"></a></li>
+                <li><a href="http://asiafoundation.org/country/overview/cambodia"><img alt="taf" src="taflogo.png" width="auto" height="32"></a></li>
+              </ul>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="about.html">About</a>
+                <li><a href="http://www.vxwaward.org/contact-us.html">Contact</a>
+                <li><a href="glossary.html">Glossary</a>
+                <li><a href="sitemap.html">Site Map</a>
+              </ul>
+            </nav>  
+        </div>
+      </footer>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+      <!-- "Survey" section -->
+      <style> #survey { display: none; height: auto;} </style> <!-- hide at first -->
+      <div id="survey" class="dialog">
+        <a class="survey-link" href="http://goo.gl/forms/mNzftuEJmO" target="_blank">Let us know what you think!</a>
+        <button class="dismiss glyphicon glyphicon-remove" aria-label="Dismiss"></button>
+      </div>
+      <script>
+        (function($) {
+          "use strict";
+          console.log("script running");
+          $(document).ready(function() {
+            $(".dialog .dismiss").on("click", function() {
+              $(this).closest(".dialog").remove();
+            });
+            console.log("setting timer for slide-in");
+            window.setTimeout(function() {
+                console.log("sliding survey link into view");
+                $("#survey").slideDown(400);
+              },
+              3000); // milliseconds until it slides into view
+          });
+        })(jQuery);
+      </script>
+  <script src="js/jquery.sticky-kit.min.js"></script>
+  <script>
+  (function($) {
+    "use strict";
+    $(document).ready(function() {
+      $("#sidenav").stick_in_parent({offset_top: 32});
+    });
+  })(jQuery);
+  </script>
+</body>
+</html>

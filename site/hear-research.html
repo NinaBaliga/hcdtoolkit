@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>RESEARCH</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body class="container toolkit-hear">
+
+      <header class="row top-header clearfix">
+        <a href="./" class="col-sm-2 hidden-xs">
+          <img class="logo" alt="Brand" src="iconnotext.png" width="128" height="128">
+        </a>
+        <div id="header-tagline-nav" class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2">
+          <h1 class="hidden-xs tagline">A Toolkit for Mobile App Development for Ending Violence Against Women</h1>
+          <div class="navbar navbar-default">
+            <div class="navbar-header visible-xs-block">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toolkit-header-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="./" class="navbar-brand">
+                <img alt="Brand" src="iconnotext.png" width="32" height="32">
+              </a>
+            </div>
+
+            <nav id="toolkit-header-nav" class="toolkit-nav collapse navbar-collapse">
+              <!--
+                the following <nav> tag captures a navigation group within the hamburger
+                menu. to make the current page's topic expanded by default, remove
+                the "collapsed" class from the <button> and set its "aria-expanded"
+                attribute to "true", and remove the "collapse" and "navbar-collapse"
+                classes from the <ul>
+              -->
+              <nav class="toolkit-hear toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-hear" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="hear.html">
+                    Hear
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-hear" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "CREATE" -->
+              <nav class="toolkit-create toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-create" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Create
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-create" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "DELIVER" -->
+              <nav class="toolkit-deliver toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-deliver" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Deliver
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-deliver" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- general navbar links, not within a topic -->
+              <nav class="toolkit-general-links">
+                <ul class="nav navbar-nav">
+                  <li><a href="mobileforevaw.html">Mobile for EVAW</a></li>
+                  <li><a href="vxwaward.html">VXW Award</a></li>
+                  <li><a href="evawapps.html">EVAW Apps</a></li>
+                  <li><a href="hcd.html">HCD</a></li>
+                </ul>
+              </nav>
+
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- BEGINNING OF MAIN BODY -->
+
+      <section class="row">
+        <nav id="sidenav" class="col-sm-3 col-md-2 hidden-xs toolkit-nav toolkit-topic-nav">
+
+          <!-- main sidenav section for HEAR -->
+
+          <nav class="toolkit-hear toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle" data-toggle="collapse" data-target="#sidebar-subnav-hear" aria-expanded="true">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="hear.html">
+                Hear
+              </a>
+
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+
+            <ul id="sidebar-subnav-hear" class="toolkit-subnav nav">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+            </ul>
+          </nav>
+
+          <!-- /* main sidenav section for CREATE -->
+          <nav class="toolkit-create toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#sidebar-subnav-create" aria-expanded="false">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="create.html">
+                Create
+              </a>
+              
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-create" class="toolkit-subnav nav collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+            </ul>
+          </nav>
+          <!-- /* main sidenav section for DELIVER
+ -->
+
+          <nav class="toolkit-deliver toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#sidebar-subnav-deliver" aria-expanded="false">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="deliver.html">
+                Deliver
+              </a>
+
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-deliver" class="toolkit-subnav nav collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+            </ul>
+          </nav>
+
+        </nav>
+
+        <!-- MAIN SECTION STARTS -->
+
+        <main class="col-sm-7 col-sm-offset-1 col-md-8" id="main-content">
+          <section class="intro">
+            <h1>  Conduct Stakeholder Research  </h1>
+            <p> The goal of stakeholder research is to gather as much input as possible from your target audience - including your future users, as well as the other stakeholders who will be critical to the success of your app. Your research should focus on understanding their needs, preferences, goals, and aspirations, as well as the context they live and work in and the barriers and constraints that it may present.</p> 
+
+            <p> Your research methods in the HEAR stage should encourage people to help generate new knowledge and understanding, and surface new ideas or opportunities that you may not have expected - rather than simply testing your own ideas or assumptions with feedback or input. </p>
+          </section>
+
+
+          <section class="clearfix">
+           <h2> User Interviews </h2>
+           <p> <b>What are user interviews?</b>
+            User interviews are one-on-one conversations to help you better understand user behavior and needs. They help you collect information that you might not otherwise know about, especially with assumptions that you are carrying into the interview.  They can help you dispel or confirm your assumptions and provide you with data to help you refine your goals. A typical user interview should last between 30 minutes to 1 hour.  </p>
+
+         </section>
+
+
+         <aside>
+
+              <h2> Field Tip </h2>
+              <section class="clearfix">
+              <img src='dyscointerview.png' style="width: auto; height: 150px" class="pull-left">
+              <p> In communities with high illiteracy rates, user interviews are one of the best methods to gather data about user behavior and needs. <a href="http://www.vxwaward.org/about-us.html">Dysco</a> met directly with villagers in Battambang to find out about their mobile usage behavior and their attitudes towards women empowerment. </p>
+              </section>
+        </aside>
+
+          <section class="clearfix">
+           <p> <b>How do you create user interview questions?</b>
+            <p> To conduct user interviews, create a series of guiding questions that can help you collect the information that you need to understand your target audience.  Key areas may include: 
+            <ul>
+            <li><b>Demographics </b>- Information can include age, gender, education, and economic status.</li>
+            <li><b>Mobile Behavior</b> - Information about what types of devices that people use and what are they doing on them. </li>
+            <li><b>Personal Behaviors </b> - What people actually do around the issues that you are working to address.</li> 
+            <li><b>Personal Attitudes</b> - How people think about the issues that you are working to address.  And identify the gaps between behaviors and attitudes. </li>
+            </ul>
+
+            <p> Your goal is to identify the gaps between personal behaviors and attitudes.  This should provide you with key information to help you when you start the <a href="create.html">creation part</a> of the toolkit.  </p>
+
+         </section>
+
+
+         <aside>
+
+              <h2> Case Study </h2>
+              <section class="clearfix">
+              <p> This sample user questionnaires were pulled together by Dysco, who was talking to students and local villagers. You can see both the <a href="https://docs.google.com/document/d/1R1S3JGLAr4aWvUaisZbdg7TvgXi3cqLWGPUrA4pYWwk/edit?usp=sharing"> English</a> and <a href="https://drive.google.com/file/d/0B447DmirAxMaSndXSEswWFVJaGdPQjhGRUMxSGVfaEotSkZ3/view?usp=sharing">Khmer </a> versions.  Understanding what types of phones they were using allowed Dysco to decide to build an iPhone app to reach an ever-growing student population.   </p>
+              </section>
+        </aside>
+
+
+          <section class="clearfix">
+           <p> <b>How do you conduct a user interview?</b>
+              <img src='phallininterview.png' style="width: auto; height: 150px" class="pull-left">
+            <p> Make the interviewee feel comfortable, so it feels more like a conversation than a series of questions and answers.  Some issues that you might discuss could be highly sensitive.  So, make sure to let them know that that their answers are all confidential.</p>
+         </section>
+
+        <aside class="consider">
+
+              <h2> CONSIDER: Do No Harm </h2>
+              <section class="clearfix">
+              <p> Privacy is a particularly important issue when you’re talking to people about violence against women. Make sure you let the interviewee know at the very beginning that all of their information is confidential.  </p>
+              </section>
+        </aside>
+
+          <section class="clearfix">
+            <p> You want the interviewee talking as much as possible.  The more they talk the more information you’ll be able to collect. Use phrases such as:</p>
+
+          <p>“Tell me more about. . . “ </p>
+          <p> “What do you mean by. . .”</p>
+          <p>“Help me understand better . . . “ </p>
+
+          <p>Don’t put words in their mouth though by saying things like “So do you mean. . . “</p>
+         </section>
+
+
+        <aside>
+
+              <h2> CONSIDER: Field Tip </h2>
+              <section class="clearfix">
+                <img src='recorder.png' style="width: auto; height: 150px" class="pull-left">
+              <p> Recording the interviews can help you recall information later. There are some free apps that you can use, such as <a href="https://itunes.apple.com/us/app/voice-recorder-free/id685310398?mt=8">Voice Recorder for iPhones,</a> or <a href="https://play.google.com/store/apps/details?id=com.andrwq.recorder&hl=en">Smart Voice Recorder for Android.</a>  Make sure to ask permission before you start recording.   </p>
+              </section>
+        </aside>
+
+
+        <section class="clearfix">
+           <h2> Other Research Methods </h2>
+           <p> While interviews are one of the most common and effective ways to gather insights from your stakeholders, there are countless other research methods can be equally valuable. Depending on the availability and nature of your stakeholders, as well as your level of familiarity with them, you may consider the following alternatives: </p>
+           <p> <b>Expert Interviews</b></p>
+              <ul>
+              <li>Format: Conversations with one or more individuals who have expertise on a specific topic or field of interest. </li>
+              <li>Best Use: Expert interviews can be critical if you have specific questions that only someone with extensive knowledge can answer. They can also be particularly helpful if you have limited knowledge on a topic and want to learn as much as you can from someone who knows it well.</li>
+              <li> Tips: If you have specific questions, you can structure the interview in a question-answer format. However, if you want to learn as much as you can about the topic, consider asking the expert to instead use the time to tell you what they know about the topic(s) of interest. If possible, share your questions in advance so they are prepared to answer! </li>
+            </ul>
+
+            <p> <b>Focus Group Discussions (FGDs)</b></p>
+              <ul>
+              <li>Format: A guided discussion between a 7-10 participants and a facilitator who poses discussion topics and questions. </li>
+              <li>Best Use: FGDs can be particularly valuable when you want your audience to brainstorm, reflect or talk openly about ideas as a group or community. It can also be a useful strategy to get feedback from multiple people at once when time is limited.</li>
+              <li> Tips: Be sure to ask open-ended questions that encourage discussion. You may find some participants dominating discussions (for example: known leaders, elders, males, or people who are naturally more vocal). Try to encourage everyone to participate, if possible. Alternatively, consider running multiple group discussions with different groups of peers (for example: women all together, youth all together, leaders all together, etc.) to encourage feelings of equality and comfort. </li>
+            </ul>
+
+            <p> <b>Observation or Immersion</b></p>
+              <ul>
+              <li>Format: An opportunity to join an individual or community in their home or workplace to observe and experience their lives and activities firsthand. </li>
+              <li>Best Use: Immersion is valuable when you want to deeply understand your users’ lives and have extensive time to spend with them in their own or community. Observations can be extremely useful when you want to witness or experience a specific activity firsthand. </li>
+              <li> Tips: Make sure that your presence doesn’t disrupt or bias your host’s usual activities. Try to be casual, emphasize your interest in understanding what they do, and ask lots of questions to help deepen your understanding of what you see. </li>
+            </ul>
+
+
+            <p> <b>Guided Demonstration</b></p>
+              <ul>
+              <li>Format: A guided walk-through of a specific activity or experience where the host explains what they are doing as they do it. </li>
+              <li>Best Use: This can be valuable when you want to understand the process behind a specific experience or activity - in other words how people do something and why. For example, how an NGO worker currently files an EVAW case report. </li>
+              <li> Tips: Make sure that your presence doesn’t disrupt or bias your host’s usual activities. Try to be casual, emphasize your interest in understanding what they do, and ask lots of questions to help deepen your understanding of what you see. </li>
+            </ul>
+
+
+         </section>
+       </main>
+     </section>
+
+ 
+
+
+<!-- Footer Forward/Back Section -->
+<footer class="row">
+
+  <!-- Footer - forward/backward links --> 
+  <nav class="col-sm-12 prev-next">
+    <ol class="nav row">
+      <li class="prev toolkit-hear col-sm-6">
+        <a href="hear-identify.html" rel="prev">
+          Identify
+        </a>
+      </li>
+      <li class="next toolkit-hear col-sm-6">
+        <a href="hear-tools.html" rel="next">
+          Hear Tools
+        </a>
+      </li>
+    </ol>
+  </nav>
+
+<!-- 
+- Footer Section Bottom Nav-->
+
+      <footer class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-default">
+              
+              <ul class="nav navbar-nav pull-left">
+                <li><a href="http://vxwaward.org"><img alt="vxwaward" src="vxwlogo.png" width="auto" height="32"></a></li>
+                <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"><img alt="dfid" src="UK.png" width="auto" height="32"></a></li>
+                <li><a href="http://asiafoundation.org/country/overview/cambodia"><img alt="taf" src="taflogo.png" width="auto" height="32"></a></li>
+              </ul>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="about.html">About</a>
+                <li><a href="http://www.vxwaward.org/contact-us.html">Contact</a>
+                <li><a href="glossary.html">Glossary</a>
+                <li><a href="sitemap.html">Site Map</a>
+              </ul>
+            </nav>  
+         </div>
+      </footer>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+      <!-- "Survey" section -->
+      <style> #survey { display: none; height: auto;} </style> <!-- hide at first -->
+      <div id="survey" class="dialog">
+        <a class="survey-link" href="http://goo.gl/forms/mNzftuEJmO" target="_blank">Let us know what you think!</a>
+        <button class="dismiss glyphicon glyphicon-remove" aria-label="Dismiss"></button>
+      </div>
+      <script>
+        (function($) {
+          "use strict";
+          console.log("script running");
+          $(document).ready(function() {
+            $(".dialog .dismiss").on("click", function() {
+              $(this).closest(".dialog").remove();
+            });
+            console.log("setting timer for slide-in");
+            window.setTimeout(function() {
+                console.log("sliding survey link into view");
+                $("#survey").slideDown(400);
+              },
+              3000); // milliseconds until it slides into view
+          });
+        })(jQuery);
+      </script>
+
+  <script src="js/jquery.sticky-kit.min.js"></script>
+  <script>
+  (function($) {
+    "use strict";
+    $(document).ready(function() {
+      $("#sidenav").stick_in_parent({offset_top: 32});
+    });
+  })(jQuery);
+  </script>
+</body>
+</html>
