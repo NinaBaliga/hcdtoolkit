@@ -1,0 +1,561 @@
+@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+.top-header {
+	font-family: 'Lato', sans-serif;
+	background-color: #451F61;
+	border-color: #451F61;
+	color: white;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.top-header .tagline {
+	padding: 7.5px 15px;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.toolkit-navgroup-label {
+	white-space: nowrap;
+}
+
+.toolkit-nav,
+.toolkit-nav .toolkit-navgroup-label,
+.toolkit-nav nav li > a,
+.toolkit-nav nav li > a:hover,
+.toolkit-nav nav li > a:active,
+.toolkit-nav nav li > a:visited,
+.toolkit-nav nav li > a:focus {
+	color: white;
+}
+
+.toolkit-nav .toolkit-navgroup-label:hover,
+.toolkit-nav nav li > a:hover,
+.toolkit-nav nav li > a:active,
+.toolkit-nav nav li > a:visited,
+.toolkit-nav nav li > a:focus {
+    background:rgb(255,255,255);
+    background: transparent\9;
+    background:rgba(255,255,255,0.4);
+    /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF);
+    zoom: 1;*/
+}
+/* IE8 */
+.toolkit-nav .toolkit-navgroup-label:hover:nth-child(n),
+.toolkit-nav nav li > a:hover:nth-child(n),
+.toolkit-nav nav li > a:active:nth-child(n),
+.toolkit-nav nav li > a:visited:nth-child(n),
+.toolkit-nav nav li > a:focus:nth-child(n)
+.div:nth-child(n) {
+    /*filter: none !important;*/
+}
+
+
+
+/* === Customized navigation styles for each topic === */
+
+
+
+
+/* "HEAR" styles */
+nav .toolkit-hear {
+	background-color: #D23092;
+}
+
+nav.toolkit-hear .toolkit-subnav {
+	background-color: #D873AE;
+}
+
+nav.toolkit-hear .toolkit-navgroup-label:before {
+	background: url("../hearicon.png") no-repeat center/100%;
+	content: "";
+}
+
+.toolkit-hear main aside > h2 {
+	background-color: #D873AE;
+}
+
+
+/* "CREATE" styles */
+nav .toolkit-create {
+	background-color: #FAAB28;
+}
+
+nav.toolkit-create .toolkit-subnav {
+	background-color: #FBBC53;
+}
+
+nav.toolkit-create .toolkit-navgroup-label:before {
+	background: url("../createicon.png") no-repeat center/100%;
+	content: "";
+}
+
+.toolkit-create main aside > h2 {
+	background-color: #F6CF8F;
+}
+
+
+
+/* "DELIVER" styles */
+nav .toolkit-deliver {
+	background-color: #268EAE;
+}
+
+nav.toolkit-deliver .toolkit-subnav {
+	background-color: #81B4C6;
+}
+
+nav .toolkit-navgroup-label:before {
+	width: 1em; 
+	height: 1em;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav.toolkit-deliver .toolkit-navgroup-label:before {
+	background: url("../delivericon.png") no-repeat center/100%;
+	content: "";
+}
+
+.toolkit-deliver main aside > h2 {
+	background-color: #81B4C6;
+}
+
+
+/* "General link" styles */
+nav.toolkit-general-links .navbar-nav > li > a:hover {
+	background-color: #805B9B;
+}
+
+/* === End of customized navigation group styles === */
+
+main aside.consider > h2 {
+	background-color: #E4806B;
+}
+
+
+/* a navigation group for the toolkit */
+.toolkit-navgroup {
+	vertical-align: middle;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+/* The top-level link of a nav group (e.g. "Create") */
+.toolkit-navgroup-head {
+	font-size: larger;
+	font-weight: bold;
+}
+
+.toolkit-navgroup-head > .toolkit-group-toggle {
+	height: 100%;
+	padding: 7.5px 15px;
+	float: right;
+    background:rgb(0,0,0);
+    background: transparent\9;
+    background:rgba(0,0,0,0.4);
+    /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);*/
+    /*zoom: 1;*/
+}
+/* IE8 */
+.toolkit-navgroup-head > .toolkit-group-toggle:nth-child(n) {
+    /*filter: none !important;*/
+}
+
+.toolkit-navgroup-head > .toolkit-group-toggle:hover {
+    background:rgb(0,0,0);
+    background: transparent\9;
+    background:rgba(0,0,0,0.6);
+    /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);*/
+    /*zoom: 1;*/
+}
+/* IE8 */
+.toolkit-navgroup-head > .toolkit-group-toggle:hover:nth-child(n) {
+    /*filter: none !important;*/
+}
+
+.toolkit-navgroup-head > .toolkit-navgroup-label {
+	display: block;
+	padding: 7.5px 15px;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+
+.toolkit-nav a:hover {
+    background:rgb(0,0,0);
+    background: transparent\9;
+    background:rgba(0,0,0,0.2);
+    /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);*/
+    /*zoom: 1;*/
+	text-decoration: none;
+}
+
+.toolkit-nav a:hover:nth-child(n) {
+    /*filter: none !important;*/
+}
+
+@media (min-width: 768px) {
+	.toolkit-general-links .nav > li > a {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-left: -15px;
+		margin-right: 15px;
+	}
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover  {
+	color: #FFF;
+}
+
+.toolkit-nav .navbar-nav {
+	margin: 0;
+}
+
+.navbar-default {
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	padding: 10px;
+}
+
+.toolkit-group-toggle {
+	float: left;
+	margin: 0;
+	padding: 5px;
+	border: none;
+	border-left: 1px solid #444;
+	height: 100%;
+}
+
+.toolkit-group-toggle > .toolkit-expand-glyph,
+.toolkit-group-toggle.collapsed > .toolkit-collapse-glyph {
+	display: none;
+}
+.toolkit-group-toggle > .toolkit-collapse-glyph,
+.toolkit-group-toggle.collapsed > .toolkit-expand-glyph {
+	display: inline-block;
+}
+
+.logo {
+	max-height: 100%;
+	width: auto;
+	margin: 10px;
+	vertical-align: middle;
+}
+/*
+header .logo {
+	padding: 10px;
+	height: 100%;
+	width: auto;
+}
+
+.navbar-brand {
+	height: 100%;
+	max-height: 100%;
+	width: auto;
+}
+*/
+
+
+/* Body copy styling */
+
+main {
+	font-family: Lato, helvetica, sans-serif; 
+	font-size: 16px;
+	color: black;
+	padding-top: 1em;
+}
+
+main > .intro h1 {
+	font-size: 34px;
+}
+
+main > .intro > p {
+	font-size: 18px;
+	color: #9b9b9b;
+}
+
+main h2,
+nav.prev-next a {
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #9b9b9b;
+}
+
+main aside {
+	background-color: #f1f2f2;
+}
+
+main aside > h2,
+nav.prev-next a {
+	margin: 0;
+	padding: 15px;
+	color: white;
+}
+
+main aside > section {
+	margin: 0;
+	padding: 15px;
+}
+
+main .pull-left {
+	margin: 1em; 
+	margin-left: 0; 
+}
+
+main .pull-right {
+	margin: 1em;
+	margin-right: 0;
+}
+
+main aside .pull-left {
+	margin-left: 1em;
+}
+
+main aside .pull-right {
+	margin-right: 1em;
+}
+
+main > aside, main > section {
+	margin-bottom: 3em;
+}
+
+.body-image {
+	max-width: 80%;
+	max-height: 500px;
+	height: auto;
+}
+
+.body-image-container {
+	text-align: center;
+	padding: 10px 10%;
+}
+
+nav.prev-next ol.nav li:hover {
+}
+
+nav.prev-next a,
+nav.prev-next a:hover,
+nav.prev-next a:focus,
+nav.prev-next a:visited,
+nav.prev-next a:active {
+	color: white;
+}
+
+nav.prev-next a[rel="prev"]:before,
+nav.prev-next a[rel="next"]:after {
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+nav.prev-next a:hover {
+    background:rgb(0,0,0);
+    background: transparent\9;
+    background:rgba(0,0,0,0.2);
+    /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);*/
+    /*zoom: 1;*/
+	text-decoration: none;
+}
+/* IE8 */
+nav.prev-next a:hover:nth-child(n) {
+    /*filter: none !important;*/
+}
+
+nav.prev-next .prev {
+/*a[rel="prev"] {*/
+	text-align: left;
+}
+
+nav.prev-next .next {
+/*nav.prev-next a[rel="next"] {*/
+	text-align: right;
+}
+
+nav.prev-next a[rel="prev"]:before {
+	content: ""; /* glyphicon chevron-left */
+}
+
+nav.prev-next a[rel="next"]:after {
+	content: ""; /* glyphicon chevron-right */
+}
+
+#survey {
+	position: fixed;
+	top: 0;
+	right: 0;
+	white-space: nowrap;
+
+	/* survey-popup visual styles here */
+	padding: 5px;
+	background-color: #336633;
+	color: white;
+}
+
+#survey a,
+#survey a:hover,
+#survey a:focus,
+#survey a:visited,
+#survey a:active {
+	color: white;
+}
+
+#survey button.dismiss {
+	background: none;
+	color: #BBBBBB;
+	border: none;
+	vertical-align: middle;
+}
+
+#survey .survey-link {
+	vertical-align: middle;
+	padding: 3px;
+}
+
+dt {
+	padding: 0.125em 0 0.125em 1em;
+	display: block;
+	font-weight: bold;
+	/*padding-left: 1em;*/
+	white-space: nowrap;
+}
+
+dt + dt {
+	padding-top: 0.125em;
+}
+
+dd {
+	color: #333;
+	display: block;
+	/*margin: 0 0 0 110px;*/
+	padding: 0 0 0.5em 5em;
+}
+
+dd + dt {
+	margin-top: 1em;
+}
+
+dt:target,
+dt:target + dt,
+dt:target + dd,
+dt:target + dt + dd {
+	background-color: #EEE;
+}
+
+@media (max-width: 767px) {
+	dd {
+		padding-left: 2em;
+	}
+
+}
+
+.toolkit-callout-btn {
+	display: block;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 2%;
+	background-color: #451F61;
+	border: none;
+	text-align: center;
+	min-width: 10em;
+}
+
+.toolkit-callout-btn,
+.toolkit-callout-btn:hover,
+.toolkit-callout-btn:visited,
+.toolkit-callout-btn:active,
+.toolkit-callout-btn:focus {
+	color: white;
+}
+
+/*EVAW Apps Page*/
+
+/*.matrix-boxes {
+	text-align: left;
+}*/
+
+.matrix {
+	text-align: center;
+}
+
+.matrix-boxes {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: table;
+	border-spacing: 10px 0;
+	margin: 10px;
+}
+
+.matrix-box {
+	display: table-cell;
+	text-align: left;
+	margin: 10px;
+	padding: 0;
+	border: 1px solid #CCC;
+	width: 38%;
+	font-family: 'Lato', sans-serif;
+	background-color: #f1f2f2;
+	padding: 10px;
+}
+
+@media (max-width: 992px) {
+	.matrix-boxes {
+		display: block;
+	}
+	.matrix-box {
+		display: block;
+		width: 75%;
+	}
+
+}
+
+.matrix-box h2,
+.matrix-box h3 {
+	line-height: 1.2em;
+	/*padding-left: 20px;*/
+	font-size: 1em;
+	font-weight: bold;
+	color: black;
+	text-transform: inherit;
+	margin: 0;
+}
+
+.matrix-box .app-info {
+	float: left;
+	margin: 3px;
+}
+
+.matrix-box  .box-header .app-icon {
+	float: left;
+	margin: 3px;
+}
+
+.matrix-box  .box-header .platform-icon {
+	float: right;
+	margin: 3px;
+}
+
+.matrix-box button{
+	background-color: #451F61;
+	color: white; 
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+}
+
+.matrix-box .app-screenshot {
+	margin: 10px;
+	text-align: center;
+}
+
+.matrix-box .app-screenshot img {
+	width: 100%;
+	height: auto;
+}
