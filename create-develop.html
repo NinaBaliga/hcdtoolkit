@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Develop</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body class="container toolkit-create">
+
+      <header class="row top-header clearfix">
+        <a href="./" class="col-sm-2 hidden-xs">
+          <img class="logo" alt="Brand" src="iconnotext.png" width="128" height="128">
+        </a>
+        <div id="header-tagline-nav" class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2">
+          <h1 class="hidden-xs tagline">A Toolkit for Mobile App Development for Ending Violence Against Women</h1>
+          <div class="navbar navbar-default">
+            <div class="navbar-header visible-xs-block">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toolkit-header-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="./" class="navbar-brand">
+                <img alt="Brand" src="iconnotext.png" width="32" height="32">
+              </a>
+            </div>
+
+            <nav id="toolkit-header-nav" class="toolkit-nav collapse navbar-collapse">
+              <!--
+                the following <nav> tag captures a navigation group within the hamburger
+                menu. to make the current page's topic expanded by default, remove
+                the "collapsed" class from the <button> and set its "aria-expanded"
+                attribute to "true", and remove the "collapse" and "navbar-collapse"
+                classes from the <ul>
+              -->
+              <nav class="toolkit-hear toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-hear" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="hear.html">
+                    Hear
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-hear" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "CREATE" -->
+              <nav class="toolkit-create toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-create" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Create
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-create" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "DELIVER" -->
+              <nav class="toolkit-deliver toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-deliver" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Deliver
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                  <ul id="header-subnav-deliver" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- general navbar links, not within a topic -->
+              <nav class="toolkit-general-links">
+                <ul class="nav navbar-nav">
+                  <li><a href="mobileforevaw.html">Mobile for EVAW</a></li>
+                  <li><a href="vxwaward.html">VXW Award</a></li>
+                  <li><a href="evawapps.html">EVAW Apps</a></li>
+                  <li><a href="hcd.html">HCD</a></li>
+                </ul>
+              </nav>
+
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- BEGINNING OF MAIN BODY -->
+
+      <section class="row">
+        <nav id="sidenav" class="col-sm-3 col-md-2 hidden-xs toolkit-nav toolkit-topic-nav">
+
+          <!-- main sidenav section for HEAR -->
+
+          <nav class="toolkit-hear toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#sidebar-subnav-hear" aria-expanded="false">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="hear.html">
+                Hear
+              </a>
+
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-hear" class="toolkit-subnav nav collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+            </ul>
+          </nav>
+
+          <!-- /* main sidenav section for CREATE -->
+          <nav class="toolkit-create toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle" data-toggle="collapse" data-target="#sidebar-subnav-create" aria-expanded="true">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="create.html">
+                Create
+              </a>
+              
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-create" class="toolkit-subnav nav">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+            </ul>
+          </nav>
+          <!-- /* main sidenav section for DELIVER
+ -->
+
+          <nav class="toolkit-deliver toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#sidebar-subnav-deliver" aria-expanded="false">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="deliver.html">
+                Deliver
+              </a>
+
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-deliver" class="toolkit-subnav nav collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+            </ul>
+          </nav>
+
+        </nav>
+
+        <!-- MAIN SECTION STARTS -->
+
+        <main class="col-sm-7 col-sm-offset-1 col-md-8" id="main-content">
+          <section class="intro">
+            <h1> Develop </h1>
+            <p> While you may want a designer or developer helping you through this stage, it is also possible for anyone to come up with the ideas and start communicating them to others through prototypes.   </p>
+          </section>
+
+
+         <section class="clearfix">
+           <h3> Sketching </h3>
+           <p>  Anyone can take a pen to paper and start drawing out ideas.  Basic shapes (circles, squares, rectangles), lines, arrows, and stick figures are enough to get your ideas out for others. What matters isn’t your artistic ability, but your ability to explain different concepts. Sketches offer a peek into your thinking and will allow the designers and developers you work with understand your ideas. Sketching helps separate the concepts from the details.</p>
+         </section>
+
+        <section class="clearfix">
+         <h2> Step 1 of 5 </h2>
+              <p> You have an idea, but you need to start translating that idea into a mobile app interface.  Now’s the time to start thinking about what that could look like.  Start by printing out a <a href="http://www.interactivelogic.net/downloads/iphone-wireframe-template-with-notes.pdf"> template </a> for you to begin your sketching exercises.</p>
+        </section>
+
+       <aside>
+        <h2> Key Resource</h2>
+        <section class="clearfix">
+        <img src="template.png" style="width: auto; height: 150px" class="pull-right">
+        <p> There are a variety of templates that you can use depending on what platform you want to build your app on.  You can see a full list of templates on the <a href"create-tools.html">Tools page. </a></p>
+        </section>
+      </aside>
+
+        <section class="clearfix">
+         <h2> Step 2 of 5 </h2>
+              <p> It’s not enough to say, “I want an app that does X, Y, and Z”. You need to know what the user will see on each screen of your app to do X, Y, and Z. Look at examples that you found during the <a href="hear-tools.html">research </a>and see what kind of interfaces that you could use from there and apply to the app you want to create. </p>
+        </section>
+
+        <section class="clearfix">
+         <h2> Step 3 of 5 </h2>
+              <p> Good storytelling is the key to designing great mobile apps. Start to think through a series of narrative use-cases for your app that illustrate every step in the user’s journey through it.  For example, a woman is walking home late at night and notices an act of violence happening on the street.  She wants to report it, so she opens Safe Agent 008 app, and clicks on the reporting feature.  She then fills out a form and submits it.</p>
+        </section>
+
+        <section class="clearfix">
+         <h2> Step 4 of 5 </h2>
+              <p> Now that you’ve defined your story, identify the parts where there is an interaction with the mobile app. In the above example, you should design out what the screen will look like when the woman first opens up the Safe Agent 008 app.  Think through where the user will find the information they need for reporting, and how they will get to that feature. Sketch out what the form will look like.  And sketch out what will happen after the person clicks on the submit button.</p>
+        </section>
+
+        <section class="clearfix">
+         <h2> Step 5 of 5 </h2>
+                 <img src="dyscosketch.png" style="width: auto; height: 150px" class="pull-right">
+              <p> Think through as many of the use-cases as you can and try to sketch out what those screens will look like.  Think through what screen will appear after you tap on a button, and create a sketch of that.  By the end of this exercise, you should have enough screens to build a working prototype of your app.</p>
+        </section>
+
+         <section class="clearfix">
+           <h3> Prototyping </h3>
+           <p>   Now that you have some sketches of the mobile app you want to build, it’s time to get that into a prototype that you can test in the field.  There are many different kinds of prototypes that you can create that involve studying visual design and coding.  However, there are simple types of prototypes that anyone can build using some simple software and the sketches you’ve just made.</p>
+
+          <p>You want to mimic the experience that a user will have when the app is fully developed.  So, you want to build screens that are “clickable”, where people can touch the screen and the app appears to respond. </p> 
+
+          <p>The following steps are for building a clickable prototype using POP (Prototyping on Paper), an app that is available on the <a href="https://itunes.apple.com/app/id555647796"> App Store </a> and <a href="https://play.google.com/store/apps/details?id=in.woomoo.pop">Google Play</a>.<p> 
+         </section>
+
+        <section class="clearfix">
+         <h2> Step 1 of 4 </h2>
+              <p> Download the <a href="https://popapp.in/">POP app</a> and create your own account. </p>
+        </section>
+
+        <section class="clearfix">
+         <h2> Step 2 of 4 </h2>
+                    <img src='popappintro.png' style="width: 350px; height: auto" class="pull-left">
+              <p> Using the app on your phone, create a new project and select the device that you are using.  Hit the “+” button at the bottom left of the screen to take photos of the sketches you made.   </p>
+        </section>
+
+        <section class="clearfix">
+         <h2> Step 3 of 4 </h2>
+                    <img src='hotspot.png' style="width: 350px; height: auto" class="pull-left">
+              <p> Once you have finished uploading all your photos.  You can pull up any sketch, and start creating “hotspots” or draw rectangles on areas of the sketches where you want those to be clickable and can take the user to a different screen.    </p>
+        </section>
+
+       <section class="clearfix">
+         <h2> Step 4 of 4 </h2>
+                  <img src='popapp.gif' style="width: 350px; height: auto" class="pull-left">
+              <p> Once you have made all your hotpots on all the different screens, you can hit the play button to see the full clickable prototype.  Use a “two finger tap” to quit play mode.  Now you’re ready to take your prototype into the field and start testing. </p>
+        </section>
+
+    </main>
+  </section>
+
+
+
+<!-- Footer Forward/Back Section -->
+<footer class="row">
+
+  <!-- Footer - forward/backward links --> 
+  <nav class="col-sm-12 prev-next">
+    <ol class="nav row">
+      <li class="prev toolkit-create col-sm-6">
+        <a href="create-ideate.html" rel="prev">
+          Ideate
+        </a>
+      </li>
+      <li class="next toolkit-create col-sm-6">
+        <a href="create-test.html" rel="next">
+          Test
+        </a>
+      </li>
+    </ol>
+  </nav>
+
+
+<!-- 
+- Footer Section Bottom Nav-->
+
+      <footer class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-default">
+              
+              <ul class="nav navbar-nav pull-left">
+                <li><a href="http://vxwaward.org"><img alt="vxwaward" src="vxwlogo.png" width="auto" height="32"></a></li>
+                <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"><img alt="dfid" src="UK.png" width="auto" height="32"></a></li>
+                <li><a href="http://asiafoundation.org/country/overview/cambodia"><img alt="taf" src="taflogo.png" width="auto" height="32"></a></li>
+              </ul>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="about.html">About</a>
+                <li><a href="http://www.vxwaward.org/contact-us.html">Contact</a>
+                <li><a href="glossary.html">Glossary</a>
+                <li><a href="sitemap.html">Site Map</a>
+              </ul>
+            </nav>  
+        </div>
+      </footer>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+      <!-- "Survey" section -->
+      <style> #survey { display: none; height: auto;} </style> <!-- hide at first -->
+      <div id="survey" class="dialog">
+        <a class="survey-link" href="http://goo.gl/forms/mNzftuEJmO" target="_blank">Let us know what you think!</a>
+        <button class="dismiss glyphicon glyphicon-remove" aria-label="Dismiss"></button>
+      </div>
+      <script>
+        (function($) {
+          "use strict";
+          console.log("script running");
+          $(document).ready(function() {
+            $(".dialog .dismiss").on("click", function() {
+              $(this).closest(".dialog").remove();
+            });
+            console.log("setting timer for slide-in");
+            window.setTimeout(function() {
+                console.log("sliding survey link into view");
+                $("#survey").slideDown(400);
+              },
+              3000); // milliseconds until it slides into view
+          });
+        })(jQuery);
+      </script>
+
+
+  <script src="js/jquery.sticky-kit.min.js"></script>
+  <script>
+  (function($) {
+    "use strict";
+    $(document).ready(function() {
+      $("#sidenav").stick_in_parent({offset_top: 32});
+    });
+  })(jQuery);
+  </script>
+</body>
+</html>

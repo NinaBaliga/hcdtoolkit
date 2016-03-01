@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Ideate</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body class="container toolkit-create">
+
+      <header class="row top-header clearfix">
+        <a href="./" class="col-sm-2 hidden-xs">
+          <img class="logo" alt="Brand" src="iconnotext.png" width="128" height="128">
+        </a>
+        <div id="header-tagline-nav" class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2">
+          <h1 class="hidden-xs tagline">A Toolkit for Mobile App Development for Ending Violence Against Women</h1>
+          <div class="navbar navbar-default">
+            <div class="navbar-header visible-xs-block">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toolkit-header-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="./" class="navbar-brand">
+                <img alt="Brand" src="iconnotext.png" width="32" height="32">
+              </a>
+            </div>
+
+            <nav id="toolkit-header-nav" class="toolkit-nav collapse navbar-collapse">
+              <!--
+                the following <nav> tag captures a navigation group within the hamburger
+                menu. to make the current page's topic expanded by default, remove
+                the "collapsed" class from the <button> and set its "aria-expanded"
+                attribute to "true", and remove the "collapse" and "navbar-collapse"
+                classes from the <ul>
+              -->
+              <nav class="toolkit-hear toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-hear" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="hear.html">
+                    Hear
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-hear" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "CREATE" -->
+              <nav class="toolkit-create toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-create" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Create
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                <ul id="header-subnav-create" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- another navigation group, for "DELIVER" -->
+              <nav class="toolkit-deliver toolkit-navgroup visible-xs-block">
+                <div class="toolkit-navgroup-head navbar-header">
+                  <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#header-subnav-deliver" aria-expanded="false">
+                    <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                    <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+                  </button>
+                  <!-- this should be a link to the topic's page and its label -->
+                  <a class="toolkit-navgroup-label" href="create.html">
+                    Deliver
+                  </a>
+
+                </div>
+                <!-- this should be a list of all the links within that topic -->
+                  <ul id="header-subnav-deliver" class="toolkit-subnav nav navbar-nav collapse navbar-collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+                </ul>
+              </nav>
+
+              <!-- general navbar links, not within a topic -->
+              <nav class="toolkit-general-links">
+                <ul class="nav navbar-nav">
+                  <li><a href="mobileforevaw.html">Mobile for EVAW</a></li>
+                  <li><a href="vxwaward.html">VXW Award</a></li>
+                  <li><a href="evawapps.html">EVAW Apps</a></li>
+                  <li><a href="hcd.html">HCD</a></li>
+                </ul>
+              </nav>
+
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- BEGINNING OF MAIN BODY -->
+
+      <section class="row">
+        <nav id="sidenav" class="col-sm-3 col-md-2 hidden-xs toolkit-nav toolkit-topic-nav">
+
+          <!-- main sidenav section for HEAR -->
+
+          <nav class="toolkit-hear toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#sidebar-subnav-hear" aria-expanded="false">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="hear.html">
+                Hear
+              </a>
+
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-hear" class="toolkit-subnav nav collapse">
+                  <li><a href="hear-define.html">Define</a></li>
+                  <li><a href="hear-explore.html">Explore</a></li>
+                  <li><a href="hear-identify.html">Identify</a></li>
+                  <li><a href="hear-research.html">Research</a></li>
+                  <li><a href="hear-tools.html">Hear Tools</a></li>
+            </ul>
+          </nav>
+
+          <!-- /* main sidenav section for CREATE -->
+          <nav class="toolkit-create toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle" data-toggle="collapse" data-target="#sidebar-subnav-create" aria-expanded="true">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="create.html">
+                Create
+              </a>
+              
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-create" class="toolkit-subnav nav">
+                  <li><a href="create-synthesize.html">Synthesize</a></li>
+                  <li><a href="create-ideate.html">Ideate</a></li>
+                  <li><a href="create-develop.html">Develop</a></li>
+                  <li><a href="create-test.html">Test</a></li>
+                  <li><a href="create-tools.html">Create Tools</a></li>
+            </ul>
+          </nav>
+          <!-- /* main sidenav section for DELIVER
+ -->
+
+          <nav class="toolkit-deliver toolkit-navgroup">
+            <div class="toolkit-navgroup-head">
+              <button class="toolkit-group-toggle collapsed" data-toggle="collapse" data-target="#sidebar-subnav-deliver" aria-expanded="false">
+                <span class="toolkit-expand-glyph glyphicon glyphicon-plus"></span>
+                <span class="toolkit-collapse-glyph glyphicon glyphicon-minus"></span>
+              </button>
+              <!-- this should be a link to the topic's page and its label -->
+              <a class="toolkit-navgroup-label" href="deliver.html">
+                Deliver
+              </a>
+
+            </div>
+            <!-- this should be a list of all the links within that topic -->
+            <ul id="sidebar-subnav-deliver" class="toolkit-subnav nav collapse">
+                  <li><a href="deliver-resource.html">Resource</a></li>
+                  <li><a href="deliver-implement.html">Implement</a></li>
+                  <li><a href="deliver-refine.html">Refine</a></li>
+                  <li><a href="deliver-tools.html">Deliver Tools</a></li>
+            </ul>
+          </nav>
+
+        </nav>
+
+        <!-- MAIN SECTION STARTS -->
+
+        <main class="col-sm-7 col-sm-offset-1 col-md-8" id="main-content">
+          <section class="intro">
+            <h1> Brainstorm New Solutions </h1>
+            <p> There are many exercises that you can do to help you create ideas that you can leverage for your app.  Below are a selection of tools that we used.  A thorough list of ideation tools and exercises are on the <a href="create-tools.html">Create Tools page. </a></p>
+          </section>
+
+          <!-- sample section content generic -->
+
+          <section class="clearfix">
+           <h3> Future Mapping </h3>
+           <p> The purpose of this exercise is to think through and understand where you and your users have culturally, politically, and socially been in the recent past, present and future.  In the workshop, participants map key trends from the past year, the current year, and three years ahead.  They then review the map, identify patterns, and discuss the relevance of different trends. It is useful for supporting discussion and debate around high-level themes: society, technology, politics, etc.</p>
+
+         </section>
+
+
+        <!-- sample section content generic -->
+
+        <section class="clearfix">
+         <h2> Step 1 of 6 </h2>
+            <img src="timeline.png" style="width: 175px; height: 175px" class="pull-right">
+              <p> Before the workshop make sure that you have a long empty wall with the area in front of it cleared. Divide the wall roughly into three equal sections with tape.</p>
+
+              <p>On three sheets of paper, write with a thick marker last year, this year, and next year to three years in the future: e.g. 2014, 2015, 2016, 2017, 2018.</p>
+
+             <p>Stick the years up, one at the top of each section, in chronological order.</p>
+
+       </section>
+
+
+
+        <section class="clearfix">
+         <h2> Step 2 of 6 </h2>
+
+          <p> Give each participant a marker and post-its.</p>
+
+          <p>Bring the group to stand together facing the wall. Explain the purpose of the workshop and give them the following instructions:</p>
+
+          <p>We will, as a group, co-create a vision of the future through the lens of the past and the present.</p>
+
+          <p> As individuals you will write a significant “thing” (trend, technology, political movement, behavioral shift, etc.) on a post-it: one per post-it. Then you’ll walk up to the wall and and stick it up, reading your post-it out loud so the rest of the group can hear.</p>
+
+          <p> There’s no need to wait your turn. As soon as you have one, write it down and stick it up. </p>
+
+          <p><i>We’re aiming to fill the wall in the next 15 minutes.</i></p>
+
+       </section>
+
+
+        <section class="clearfix">
+         <h2> Step 3 of 6 </h2>
+
+          <p> Start with last year, give them 5 minutes to fill the space with post-its, then move to this year, and then to the 5 years in the future.</p>
+
+          <p>Support the group to keep the pace up and encourage everyone to participate. If you feel the speed is dragging, ask relevant questions or make suggestions to inspire the group.</p>
+
+       </section>
+
+        <section class="clearfix">
+         <h2> Step 4 of 6 </h2>
+
+          <p> When the time is up keep the group in front of the wall. Ask them to look at the post-its on the wall and look for patterns and common themes in each year. If time allows, create subgroups to sort the trends under each year and prepare a summary of the key patterns.</p>
+
+       </section>
+
+        <section class="clearfix">
+          <img src="timeline2.png" style="width: 150px; height: 150px" class="pull-left">
+         <h2> Step 5 of 6 </h2>
+            <p>Run a group reflection and discussion. Some good prompt questions are:
+            <ul>
+            <li>How was that exercise?</li>
+            <li> What have I learned?</li>
+            <li>How do I feel about the past, present, and future?</li>
+            <li>What does this mean for us? For women? For our country?</li>
+            <li>Encourage participants to speak from their personal experience, using “I” rather than “us” and “we”.</li>
+            </ul>
+            Wrap up the session by sharing some of the key themes that you heard throughout the discussion. </p>
+
+       </section>
+
+
+        <section class="clearfix">
+         <h2> Step 6 of 6 </h2>
+            <p>Take a piece of paper and write up one theme on each piece of paper that the group has found, and tape it to the wall.  Start to move the post-it notes under each theme.  Wrap up the session by sharing some of the key themes that you heard throughout the discussion. Ask the group how they would like to capture their thoughts and actions to use in the future. </p>
+
+       </section>
+
+
+          <section class="clearfix">
+           <h3> Idea & Concept Development </h3>
+           <p> Ideation and Concept Development is a process for groups to work collaboratively to generate creative ideas. It’s a general approach that can be adapted and customized to address many issues around ending violence against women. It includes basic principles for idea generation and several steps for groups to work with. It also includes steps for idea selection and development.</p>
+
+         </section>
+
+
+        <section class="clearfix">
+         <h2> Step 1 of 8 </h2>
+            <img src="ideate.png" style="width: 175px; height: 175px" class="pull-left">
+              <p> Gather a team of people that you plan to design and build the app with, along with any other key stakeholders that you want to include in the ideation of the app.  Introduce the purpose of the ideation activity, in which the desired outcome is tangible new ideas to solve the issues around violence against women. In any case: begin with an introduction, setting the context.</p>
+
+       </section>
+
+       <section class="clearfix">
+         <h2> Step 2 of 8 </h2>
+              <p> Introduce the below ideation principles for effective ideation. These are simple guidelines to support creativity.</p>
+
+              <p><b>Yes, and… </b>Build on the ideas of others by saying yes! and adding onto their ideas. Listen actively for opportunities to build and elaborate.</p>
+              <p><b>More is more</b> In the first stage, it’s all about quantity. Focus on getting down as many ideas as possible rather than striving to come up with really “good” ideas. Get it all out.</p>
+              <p><b>Postpone judgment </b> Suspend your inner critic and resist the urge to evaluate the ideas as they flow out. Anything goes and the time for judgement is later.</p>
+              <p><b>Team is everything </b>Make full use of all brains by ensuring that every team member is included. Create space for everyone to contribute their ideas.</p>
+
+       </section>
+
+
+       <section class="clearfix">
+         <h2> Step 3 of 8 </h2>
+            <img src="question.png" style="width: 175px; height: 175px" class="pull-right">
+
+
+              <p><b>The key question: </b> Next, introduce the question that your team will ideate around. In some settings, the group may come up with their own question.  In other settings, the facilitator should propose a main question that everyone works on. “The key question” should be an open, clear and engaging one that seeks a solution to a compelling problem or need.</p>
+
+       </section>
+
+       <aside>
+        <h2> Case Study: VXW Award Key Questions </h2>
+        <section class="clearfix">
+        <p>
+          <ul>
+            <li>How can we empower women in Cambodia to end violence against women?</li>
+            <li> What tools do people need in order to become better informed about domestic violence laws?</li></p>
+        </section>
+      </aside>
+
+
+       <section class="clearfix">
+         <h2> Step 4 of 8 </h2>
+            <p><b>Ideation Tools:</b> With the question or questions clear, have the team begin ideating around the question. Introduce one or several ideation methods to support this step.</p>
+
+            <p><i>Association:</i> Using random words or random images, ideate in teams using association. Pull a random word or image and generate ideas for two minutes around it. Then pull a new one and go again.<p>
+            <p><i>Negative Brainstorming:</i> Flip the key question to its negative form and ideate around that. For example, how could Hyper Island create the world’s worst Toolbox? After brainstorming the negative ideas, explore what happens when they are inverted.</p>
+            <p><i>User Perspective:</i> Explore the focus question from the perspective of specific users. What would it look like for a farmer in Battambang? For your grandmother? For a 20 year-old beer promoter? Etc.</p>
+            <p><i>Mash-up:</i> Use the “Mash-up approach” by brainstorming a cluster of technologies and a cluster of things related to your focus question. Then, mix-and-match different elements and see what emerges.</p>
+
+       </section>
+
+
+       <section class="clearfix">
+         <h2> Step 5 of 8 </h2>
+              <p><b>Ideate! </b> Give the team a set amount of time to ideate using one or more of the tools introduced. There should be sufficient time to allow some flow to develop, but short enough that everyone feels some pressure.</p>
+
+       </section>
+
+
+
+       <section class="clearfix">
+         <h2> Step 6 of 8 </h2>
+              <p><b>Cluster & Narrow </b> After the ideation phase, have teams cluster and organize their ideas. This involves grouping common themes and similar ideas. They should remove duplicates and give each cluster a title.</p>
+
+       </section>
+
+
+        <section class="clearfix">
+         <h2> Step 7 of 8 </h2>
+              <p><b>Selection </b> Once teams have clustered and organized their ideas, have them select one or several ideas to move forward with. Provide a set of selection criteria or have teams generate their own criteria. For example: ideas should be selected based on the three criteria of relevance, feasibility and newsworthiness. With criteria set, one rapid method for selection is to use Dotmocracy, in which each participant has a certain number of dots to assign to the ideas on the table. The ideas with the most dots then have the most collective endorsement from the group.</p>
+
+       </section>
+
+
+        <section class="clearfix">
+         <h2> Step 8 of 8 </h2>
+              <p><b>Develop it!</b>  The final step is to further develop the most promising idea identified in the above step. Here, participants develop the ideas further, exploring the details of the concept, functionality, feasibility, business model, etc. This can be done within the same session, or could be done in a longer session of its own.</p>
+
+       </section>
+
+
+
+
+        <section class="clearfix">
+           <h3> Mash-Up Innovation </h3>
+           <p> This final exercise will help you take the learnings from the first two exercises and start creating tangible app ideas to build out.  Mash-ups is a collaborative idea generation method in which participants come up with innovative concepts by combining different elements together. In a first step, participants brainstorm around different areas, such as technologies, human needs, and existing services. In a second step, they rapidly combine elements from those areas to create new, fun and innovative concepts. Mash-ups demonstrates how fast and easy it can be to come up with innovative ideas.</p>
+
+         </section>
+
+
+        <section class="clearfix">
+         <h2> Step 1 of 3 </h2>
+
+              <p> First brainstorm: Ask the whole group to brainstorm around the areas of:
+              <ul>
+                <li>TECHNOLOGIES (e.g. telephone, 3D printing, GPS),</li>
+                <li>HUMAN NEEDS (e.g. love, transportation, waking up in the morning), and </li>
+                <li>EXISTING SERVICES (e.g. Google translate, Spotify, Candy Crush).</li>
+              </ul>
+
+              <p>Spend 3 minutes brainstorming around each area. Have participants write one idea per post-it. Make the brainstorm active and fast-paced. Have participants call-out each idea as they place it up on the wall. By the end of the brainstorming there should be three large clusters of post-its on the wall, one for each area. The more the better!</p>
+
+       </section>
+
+
+
+        <section class="clearfix">
+         <h2> Step 2 of 3 </h2>
+                     <img src="mashup.png" style="width: auto; height: 175px" class="pull-right">
+              <p><b> Mashups:</b> Explain that they will have 12 minutes to come up with as many mash-up concepts as they can.</p>
+
+              <p>A mash-up concept consists of 2 or more elements from the wall combined together to create a new concept.</p>
+
+              <p>For each mash-up that a team creates, they must give the concept a catchy name and capture it on a piece of paper. The paper should include: the elements that combine to make the new concept (e.g. iPads + Doing Laundry + Paypal) and the name of the concept (eg. Launderfy).</p>
+
+       </section>
+
+        <section class="clearfix">
+         <h2> Step 3 of 3 </h2>
+              <p><b> Develop:</b> A final optional step is to have participants choose their favorite and/or most feasible mash-up concept and develop it further for 30 minutes, exploring the details of the concept and its functionality. Each team uses one flipchart paper to visualize the concept.</p>
+
+       </section>
+
+
+
+      </section>
+
+    </main>
+  </section>
+
+
+
+
+<!-- Footer Forward/Back Section -->
+<footer class="row">
+
+  <!-- Footer - forward/backward links --> 
+  <nav class="col-sm-12 prev-next">
+    <ol class="nav row">
+      <li class="prev toolkit-create col-sm-6">
+        <a href="create-synthesize.html" rel="prev">
+          Synthesize
+        </a>
+      </li>
+      <li class="next toolkit-create col-sm-6">
+        <a href="create-develop.html" rel="next">
+          Develop
+        </a>
+      </li>
+    </ol>
+  </nav>
+
+
+<!-- 
+- Footer Section Bottom Nav-->
+
+      <footer class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-default">
+              
+              <ul class="nav navbar-nav pull-left">
+                <li><a href="http://vxwaward.org"><img alt="vxwaward" src="vxwlogo.png" width="auto" height="32"></a></li>
+                <li><a href="https://www.gov.uk/government/organisations/department-for-international-development"><img alt="dfid" src="UK.png" width="auto" height="32"></a></li>
+                <li><a href="http://asiafoundation.org/country/overview/cambodia"><img alt="taf" src="taflogo.png" width="auto" height="32"></a></li>
+              </ul>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="about.html">About</a>
+                <li><a href="http://www.vxwaward.org/contact-us.html">Contact</a>
+                <li><a href="glossary.html">Glossary</a>
+                <li><a href="sitemap.html">Site Map</a>
+              </ul>
+            </nav>  
+        </div>
+      </footer>
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+      <!-- "Survey" section -->
+      <style> #survey { display: none; height: auto;} </style> <!-- hide at first -->
+      <div id="survey" class="dialog">
+        <a class="survey-link" href="http://goo.gl/forms/mNzftuEJmO" target="_blank">Let us know what you think!</a>
+        <button class="dismiss glyphicon glyphicon-remove" aria-label="Dismiss"></button>
+      </div>
+      <script>
+        (function($) {
+          "use strict";
+          console.log("script running");
+          $(document).ready(function() {
+            $(".dialog .dismiss").on("click", function() {
+              $(this).closest(".dialog").remove();
+            });
+            console.log("setting timer for slide-in");
+            window.setTimeout(function() {
+                console.log("sliding survey link into view");
+                $("#survey").slideDown(400);
+              },
+              3000); // milliseconds until it slides into view
+          });
+        })(jQuery);
+      </script>
+
+
+  <script src="js/jquery.sticky-kit.min.js"></script>
+  <script>
+  (function($) {
+    "use strict";
+    $(document).ready(function() {
+      $("#sidenav").stick_in_parent({offset_top: 32});
+    });
+  })(jQuery);
+  </script>
+</body>
+</html>
